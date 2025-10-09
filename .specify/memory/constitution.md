@@ -1,50 +1,60 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# AdhikarMitra Static Web App Constitution
+
+Minimal, enforceable ground rules for building and evolving the AdhikarMitra static web application.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### 1. Simplicity First
+ 
+Start with plain static assets (HTML, CSS, vanilla JS) and only add build tooling or frameworks when a clear, quantified need (performance, maintainability, accessibility) is documented. Avoid premature abstraction.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### 2. Performance & Accessibility Baseline
+ 
+Every page must (a) load core content within a single network round trip (no JS-required critical text), (b) pass automated Lighthouse performance & accessibility scores ≥ 90 in CI, and (c) use semantic HTML for assistive technologies.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### 3. Security Hygiene
+ 
+No inline event handlers; use CSP-friendly patterns. External dependencies are pinned (hash or version). User-submitted data is never executed; all dynamic content sanitized/encoded. Secrets are never committed; configuration uses environment/build variables.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### 4. Automation Over Manual Drift
+ 
+All quality checks (build, lint, format, link check, a11y scan, basic unit/DOM tests if applicable) run automatically in CI on every pull request; green CI is mandatory for merge.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### 5. Content Integrity & Traceability
+ 
+Each content change (text, images, static data) is linked to an issue or task ID in the commit message. Generated or third‑party assets must include provenance in a header comment or adjacent README snippet.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technical Baseline
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Stack: Static site served via CDN / static hosting; no server-side code required for baseline features.
+- Tooling (add only when needed):
+  - Optional bundler (e.g., Vite) for performance once >3 shared modules or ES build optimizations needed.
+  - CSS: Start with simple global stylesheet; introduce a utility framework (e.g., Tailwind) only after documenting repetitive pattern cost.
+  - Testing: Minimal DOM/unit tests (e.g., with Jest + jsdom) for any custom JS logic; skip if no custom logic exists.
+- Assets: Images optimized (lossless for logos, responsive sizes for photos). SVG preferred for icons.
+- Dependency Policy: Keep third‑party packages < 10 for core bundle; remove unused monthly.
+- Performance Budgets (initial):
+  - Initial HTML ≤ 35KB (uncompressed), total critical path JS ≤ 75KB (compressed) for first meaningful paint.
+  - LCP ≤ 2.5s on emulated Fast 3G / mid-tier device in CI audits.
+- Accessibility: All interactive elements keyboard reachable; images have alt text (or empty alt for decorative).
+- Internationalization readiness: No hard-coded locale assumptions (date, currency formatting delegated to Intl when needed).
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Workflow & Quality Gates
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+1. Issue → Branch: branch naming `feat|fix|chore/issue-<id>-short-desc`.
+2. Pull Request must list: purpose, related issue, and any user-facing change notes.
+3. Mandatory automated checks before merge:
+   - Build / static generation succeeds.
+   - Lint + formatting (consistent style) pass.
+   - Link checker (no broken internal links).
+   - Lighthouse (performance + accessibility ≥ 90) scripted run on representative pages.
+   - (If JS logic) Unit tests: ≥ 90% statement coverage for custom logic (exclude config & vendor).
+4. Human review: At least 1 reviewer not author; reviewer confirms principles adherence via checklist.
+5. Release tagging: Semantic versioning MAJOR.MINOR.PATCH; PATCH for content only, MINOR for additive non-breaking features, MAJOR for structural or breaking asset/URL changes.
+6. Rollback: Previous release tag must be deployable via single CI workflow re-run.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution overrides ad-hoc preferences. Deviations require a documented exception (issue labeled `constitution-exception`) including rationale, scope, and sunset/cleanup plan. Amendments: propose PR updating this file, cite motivating data (metrics, incidents, maintenance cost) and obtain approval from at least two maintainers. All PR reviews ensure compliance; unaddressed violations block merge. Complexity must be explicitly justified against measurable benefit (performance, accessibility, maintainability).
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-10-09 | **Last Amended**: 2025-10-09

@@ -1,0 +1,8 @@
+[
+  { "id": "utilities", "name": "Utilities", "description": "Electricity, water, and related services", "order": 10 },
+  { "id": "health", "name": "Health", "description": "Public health & medical grievance bodies", "order": 20 },
+  { "id": "education", "name": "Education", "description": "School and higher education authorities", "order": 30 },
+  { "id": "legal", "name": "Legal", "description": "Consumer, legal aid and rights commissions", "order": 40 },
+  { "id": "civic", "name": "Civic", "description": "Municipal & civic services", "order": 50 },
+  { "id": "human-rights", "name": "Human Rights", "description": "Rights & protection authorities", "order": 60 }
+]

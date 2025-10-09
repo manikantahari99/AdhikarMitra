@@ -1,0 +1,150 @@
+openapi: 3.0.3
+info:
+  title: AdhikarMitra Authority Directory (Hypothetical API)
+  version: 0.1.0
+  description: >-
+    Read-only contract representing how a future programmatic API could expose
+    authority data now served statically. Not required for MVP static build,
+    but documents resource semantics for potential evolution.
+servers:
+  - url: https://example.org/api
+paths:
+  /authorities:
+    get:
+      summary: List authorities
+      description: Filterable list of authorities.
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+          description: Free text search across name, description.
+        - in: query
+          name: category
+          schema:
+            type: string
+          description: Category id filter.
+        - in: query
+          name: scope
+          schema:
+            type: string
+            enum: [state, national]
+          description: Scope filter.
+      responses:
+        '200':
+          description: List response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/AuthoritySummary'
+                  total:
+                    type: integer
+  /authorities/{id}:
+    get:
+      summary: Get authority detail
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Authority detail
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Authority'
+        '404':
+          description: Not found
+components:
+  schemas:
+    AuthoritySummary:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        scope:
+          type: string
+          enum: [state, national]
+        category:
+          type: string
+        lastVerified:
+          type: string
+          format: date
+    Authority:
+      allOf:
+        - $ref: '#/components/schemas/AuthoritySummary'
+        - type: object
+          properties:
+            description:
+              type: string
+            primaryContacts:
+              type: array
+              items:
+                $ref: '#/components/schemas/PhoneContact'
+            secondaryContacts:
+              type: array
+              items:
+                $ref: '#/components/schemas/PhoneContact'
+            emails:
+              type: array
+              items:
+                $ref: '#/components/schemas/Email'
+            portalUrls:
+              type: array
+              items:
+                $ref: '#/components/schemas/PortalUrl'
+            escalation:
+              type: array
+              items:
+                $ref: '#/components/schemas/EscalationStep'
+            verifiedSource:
+              type: string
+    PhoneContact:
+      type: object
+      properties:
+        raw:
+          type: string
+        type:
+          type: string
+          enum: [primary, tollfree, landline]
+        stdCode:
+          type: string
+    PortalUrl:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [official, complaint-form, escalation, guidelines, other]
+        url:
+          type: string
+          format: uri
+        label:
+          type: string
+    Email:
+      type: object
+      properties:
+        address:
+          type: string
+          format: email
+        role:
+          type: string
+    EscalationStep:
+      type: object
+      properties:
+        level:
+          type: integer
+        role:
+          type: string
+        contact:
+          type: string
+        notes:
+          type: string

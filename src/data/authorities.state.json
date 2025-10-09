@@ -1,0 +1,107 @@
+[
+  {
+    "id": "apspdcl",
+    "name": "APSPDCL Electricity Consumer Grievance Cell",
+    "scope": "state",
+    "category": "utilities",
+    "primaryContacts": [ { "raw": "1912", "type": "tollfree" } ],
+    "portalUrls": [ { "type": "official", "url": "https://www.apspdcl.in/" } ],
+    "escalation": [
+      { "level": 1, "role": "Division Office", "contact": "1912" },
+      { "level": 2, "role": "Circle Office", "contact": "+91862XXXXXXX" },
+      { "level": 3, "role": "AP Electricity Regulatory Commission", "contact": "https://aperc.gov.in/complaints" }
+    ],
+    "lastVerified": "2025-09-30"
+  },
+  {
+    "id": "apepdcl",
+    "name": "APEPDCL Electricity Consumer Grievance Cell",
+    "scope": "state",
+    "category": "utilities",
+    "primaryContacts": [ { "raw": "1912", "type": "tollfree" } ],
+    "portalUrls": [ { "type": "official", "url": "https://www.apeasternpower.com/" } ],
+    "lastVerified": "2025-09-25"
+  },
+  {
+    "id": "ap-transco",
+    "name": "APTRANSCO Transmission Complaints",
+    "scope": "state",
+    "category": "utilities",
+    "primaryContacts": [ { "raw": "08632312345", "type": "landline", "stdCode": "0863" } ],
+    "lastVerified": "2025-09-28"
+  },
+  {
+    "id": "ap-metro-water",
+    "name": "AP Rural Water Supply Helpline",
+    "scope": "state",
+    "category": "utilities",
+    "primaryContacts": [ { "raw": "18004254545", "type": "tollfree" } ],
+    "lastVerified": "2025-09-22"
+  },
+  {
+    "id": "ap-health-directorate",
+    "name": "Directorate of Health Services (AP)",
+    "scope": "state",
+    "category": "health",
+    "primaryContacts": [ { "raw": "104", "type": "tollfree" } ],
+    "portalUrls": [ { "type": "official", "url": "https://hmfw.ap.gov.in/" } ],
+    "lastVerified": "2025-09-29"
+  },
+  {
+    "id": "ap-mental-health",
+    "name": "State Mental Health Helpline (AP)",
+    "scope": "state",
+    "category": "health",
+    "primaryContacts": [ { "raw": "14416", "type": "tollfree" } ],
+    "lastVerified": "2025-09-23"
+  },
+  {
+    "id": "ap-education-dept",
+    "name": "School Education Department (AP)",
+    "scope": "state",
+    "category": "education",
+    "primaryContacts": [ { "raw": "14417", "type": "tollfree" } ],
+    "lastVerified": "2025-09-21"
+  },
+  {
+    "id": "ap-higher-education",
+    "name": "Higher Education Council (AP)",
+    "scope": "state",
+    "category": "education",
+    "primaryContacts": [ { "raw": "08662567890", "type": "landline", "stdCode": "0866" } ],
+    "lastVerified": "2025-09-30"
+  },
+  {
+    "id": "ap-legal-aid",
+    "name": "Andhra Pradesh State Legal Services Authority",
+    "scope": "state",
+    "category": "legal",
+    "primaryContacts": [ { "raw": "08632654321", "type": "landline", "stdCode": "0863" } ],
+    "portalUrls": [ { "type": "official", "url": "https://apslsa.ap.nic.in/" } ],
+    "lastVerified": "2025-09-27"
+  },
+  {
+    "id": "ap-consumer-forum",
+    "name": "Consumer Affairs Helpline (AP)",
+    "scope": "state",
+    "category": "legal",
+    "primaryContacts": [ { "raw": "18004250077", "type": "tollfree" } ],
+    "lastVerified": "2025-09-26"
+  },
+  {
+    "id": "ap-municipal-admin",
+    "name": "Municipal Administration & Urban Development (AP)",
+    "scope": "state",
+    "category": "civic",
+    "primaryContacts": [ { "raw": "08662440000", "type": "landline", "stdCode": "0866" } ],
+    "lastVerified": "2025-09-24"
+  },
+  {
+    "id": "ap-human-rights",
+    "name": "AP State Human Rights Commission",
+    "scope": "state",
+    "category": "human-rights",
+    "primaryContacts": [ { "raw": "08662999999", "type": "landline", "stdCode": "0866" } ],
+    "lastVerified": "2025-09-28"
+  }
+]

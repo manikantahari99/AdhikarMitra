@@ -63,12 +63,18 @@
     const term = ($(searchInputId)?.value || '').trim().toLowerCase();
     let filtered = allAuthorities;
     
+    // If no category selected and no search term, show empty state message
+    if(!activeCategory && !term){
+      Renderer.renderAuthorityList([], true); // true = show selection prompt
+      return;
+    }
+    
     // Filter by scope (State/Central)
     if(activeScope !== 'all'){
       filtered = filtered.filter(a => a.scope === activeScope);
     }
     
-    // Filter by category
+    // Filter by category (only if a category is selected)
     if(activeCategory){
       filtered = filtered.filter(a=>a.category === activeCategory);
     }
@@ -76,14 +82,17 @@
     // Filter by search term
     if(term){
       filtered = filtered.filter(a=>{
-        return a.name.toLowerCase().includes(term) || a.category.toLowerCase().includes(term);
+        const searchableText = [
+          a.name,
+          a.category,
+          a.description || '',
+          a.contact?.email || '',
+          a.contact?.phone || '',
+          a.grievanceEmail || '',
+          a.helpline || ''
+        ].join(' ').toLowerCase();
+        return searchableText.includes(term);
       });
-    }
-    
-    // If no category selected and no search term, show empty state message
-    if(!activeCategory && !term){
-      Renderer.renderAuthorityList([], true); // true = show selection prompt
-      return;
     }
     
     Renderer.renderAuthorityList(filtered);

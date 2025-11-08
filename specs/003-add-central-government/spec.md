@@ -1,9 +1,20 @@
-# Feature Specification: Central Government Department Contacts for AP Citizens
+# Feature Specification: Comprehensive All-India Government Services Portal
 
 **Feature Branch**: `003-add-central-government`  
 **Created**: November 8, 2025  
+**Updated**: November 8, 2025 (Expanded to All-India scope)  
 **Status**: Draft  
-**Input**: User request: "All the central government department details also shall be there in the website"
+**Input**: User request: "All the central government department details also shall be there in the website. Emergency services (Police 100, Fire, etc.), independent bodies (RBI, CBI, ED, Lokpal, ECI), and comprehensive grievance information for every department. One-stop solution for all Indian citizens."
+
+## Vision
+
+Transform AdhikarMitra into a **comprehensive one-stop portal for ALL Indian citizens** providing:
+- ✅ State Government Departments (Andhra Pradesh initially, expandable to other states)
+- ✅ Central Government Departments (Regional offices + National headquarters)
+- 🚨 **Emergency Services** (Police 100, Fire 101, Ambulance 102/108, Women Helpline 181, Child Helpline 1098, Disaster Management, etc.)
+- 🏛️ **Independent Constitutional Bodies** (RBI, CBI, ED, Lokpal, ECI, CAG, NHRC, CVC, CIC, UPSC, etc.)
+- 📧 **Comprehensive Grievance Mechanisms** (CPGRAMS, RTI, department-specific portals)
+- 🇮🇳 **National Services** (Passport, Visa, Aadhaar, PAN, Voter ID, etc.)
 
 ## User Scenarios & Testing *(mandatory)*
 

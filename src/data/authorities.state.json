@@ -848,5 +848,295 @@
     },
     "website": "https://cpcb.nic.in/",
     "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-police-100",
+    "name": "🚨 Police Emergency - 100",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 emergency police assistance across India. Dial 100 for immediate police help, crime reporting, accidents, and public safety emergencies.",
+    "contact": {
+      "phone": "100"
+    },
+    "helpline": "100",
+    "website": "https://www.dial100.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-fire-101",
+    "name": "🔥 Fire Emergency - 101",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 fire brigade emergency services. Dial 101 for fire incidents, rescue operations, and fire safety emergencies across India.",
+    "contact": {
+      "phone": "101"
+    },
+    "helpline": "101",
+    "website": "https://ndma.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-ambulance-102-108",
+    "name": "🚑 Ambulance Emergency - 102 / 108",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 free ambulance service. Dial 102 (National Ambulance Service) or 108 (Emergency Response Service) for medical emergencies across India.",
+    "contact": {
+      "phone": "102"
+    },
+    "helpline": "102 / 108",
+    "website": "https://nha.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-women-helpline-181",
+    "name": "👩 Women Helpline - 181",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 women helpline for domestic violence, harassment, and safety concerns. Toll-free service connecting to nearest police station and One Stop Centre.",
+    "contact": {
+      "phone": "181"
+    },
+    "helpline": "181",
+    "website": "https://wcd.nic.in/",
+    "grievanceEmail": "complaints-wcd@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-child-helpline-1098",
+    "name": "👶 Child Helpline - 1098",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 toll-free emergency service for children in distress. Report child abuse, missing children, trafficking, and access child protection services.",
+    "contact": {
+      "phone": "1098"
+    },
+    "helpline": "1098",
+    "website": "https://www.childlineindia.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-disaster-ndrf",
+    "name": "⛑️ National Disaster Response - 1078 / 9711077372",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "NDRF (National Disaster Response Force) emergency helpline for natural disasters, earthquakes, floods, cyclones, and mass casualty incidents.",
+    "contact": {
+      "phone": "1078",
+      "email": "ndrf.hq@nic.in"
+    },
+    "helpline": "1078 / 9711077372",
+    "website": "https://ndrf.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-railway-139",
+    "name": "🚂 Railway Helpline - 139",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 railway passenger inquiry, complaints, and emergency assistance. Security concerns, medical emergencies on trains, and passenger grievances.",
+    "contact": {
+      "phone": "139"
+    },
+    "helpline": "139",
+    "website": "https://enquiry.indianrail.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-highway-1033",
+    "name": "🛣️ National Highway Emergency - 1033",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 highway emergency services on National Highways. Report accidents, breakdowns, and access medical assistance on highways.",
+    "contact": {
+      "phone": "1033"
+    },
+    "helpline": "1033",
+    "website": "https://nhai.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-rbi",
+    "name": "Reserve Bank of India (RBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Central banking authority regulating monetary policy, banking sector, and currency management. File complaints against banks, frauds, digital payments. Grievance: cms.rbi.org.in",
+    "contact": {
+      "phone": "022-22602201",
+      "email": "cgrm@rbi.org.in"
+    },
+    "website": "https://www.rbi.org.in/",
+    "grievanceEmail": "cgrm@rbi.org.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cbi",
+    "name": "Central Bureau of Investigation (CBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Premier investigating agency for corruption, economic offenses, and special crimes. Anti-Corruption helpline: 1800-110-180. Submit online complaints at cbi.gov.in",
+    "contact": {
+      "phone": "011-24360000",
+      "email": "dir.cbi@gov.in"
+    },
+    "website": "https://cbi.gov.in/",
+    "helpline": "1800-110-180",
+    "grievanceEmail": "complaints.cbi@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-ed",
+    "name": "Enforcement Directorate (ED)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Investigates economic crimes, money laundering (PMLA), and foreign exchange violations (FEMA). Report financial irregularities and economic offenses.",
+    "contact": {
+      "phone": "011-24364690",
+      "email": "director@ed.nic.in"
+    },
+    "website": "https://enforcementdirectorate.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-lokpal",
+    "name": "Lokpal (Anti-Corruption Ombudsman)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional authority to investigate corruption by public servants, including PM, Ministers, MPs. File complaints against high-level public officials online.",
+    "contact": {
+      "phone": "011-23034100",
+      "email": "chairperson@lokpal.gov.in"
+    },
+    "website": "https://lokpal.gov.in/",
+    "grievanceEmail": "complaints@lokpal.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-eci",
+    "name": "Election Commission of India (ECI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional body conducting elections, maintaining electoral rolls. Voter ID services, complaints against electoral malpractices. Voter Helpline: 1950",
+    "contact": {
+      "phone": "011-23052205",
+      "email": "complaints@eci.gov.in"
+    },
+    "website": "https://eci.gov.in/",
+    "helpline": "1950",
+    "grievanceEmail": "complaints@eci.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cag",
+    "name": "Comptroller and Auditor General of India (CAG)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional auditor of government accounts, revenue, expenditure. RTI applications accepted. Reports financial irregularities to Parliament.",
+    "contact": {
+      "phone": "011-23212366",
+      "email": "ca.g@cag.gov.in"
+    },
+    "website": "https://cag.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-nhrc",
+    "name": "National Human Rights Commission (NHRC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Statutory body protecting human rights. File complaints for rights violations, custodial deaths, police brutality. Online complaint portal available.",
+    "contact": {
+      "phone": "011-23385368",
+      "email": "covdnhrc@nic.in"
+    },
+    "website": "https://nhrc.nic.in/",
+    "helpline": "1800-11-4000",
+    "grievanceEmail": "complaints@nhrc.nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cvc",
+    "name": "Central Vigilance Commission (CVC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Apex integrity institution monitoring government corruption. File vigilance complaints against central govt employees. Whistleblower protection available.",
+    "contact": {
+      "phone": "011-24651010",
+      "email": "cvc@nic.in"
+    },
+    "website": "https://cvc.gov.in/",
+    "helpline": "1800-110-180",
+    "grievanceEmail": "complaints.cvc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cic",
+    "name": "Central Information Commission (CIC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Statutory body enforcing Right to Information Act. File appeals for RTI rejections, delays. Ensures government transparency and accountability.",
+    "contact": {
+      "phone": "011-23052039",
+      "email": "cic@nic.in"
+    },
+    "website": "https://cic.gov.in/",
+    "grievanceEmail": "appeals@cic.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-upsc",
+    "name": "Union Public Service Commission (UPSC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional body conducting civil services examinations (IAS, IPS, IFS). Candidate grievances, exam queries, recruitment information.",
+    "contact": {
+      "phone": "011-23385271",
+      "email": "upsc@nic.in"
+    },
+    "website": "https://upsc.gov.in/",
+    "grievanceEmail": "grievance-upsc@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cpgrams-portal",
+    "name": "CPGRAMS - Centralized Public Grievance Portal",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Online platform to file grievances against any central government ministry/department. Track complaint status, escalation mechanism, 60-day resolution target.",
+    "contact": {
+      "phone": "011-23092595",
+      "email": "pgportal@gov.in"
+    },
+    "website": "https://pgportal.gov.in/",
+    "grievanceEmail": "pgportal@gov.in",
+    "helpline": "1800-11-1555",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-rti-online",
+    "name": "RTI Online Portal - All Ministries",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "File RTI applications online to any central government ministry/department. Track status, appeals to CIC. Fee: ₹10 per application.",
+    "contact": {
+      "email": "rti@gov.in"
+    },
+    "website": "https://rtionline.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aadhaar-uidai",
+    "name": "UIDAI - Aadhaar Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Aadhaar enrollment, updates, download e-Aadhaar, mobile linking, address update. Helpline: 1947. Locate nearest Aadhaar center.",
+    "contact": {
+      "phone": "1947",
+      "email": "help@uidai.gov.in"
+    },
+    "website": "https://uidai.gov.in/",
+    "helpline": "1947",
+    "grievanceEmail": "complaints@uidai.gov.in",
+    "lastVerified": "2025-11-08"
   }
 ]

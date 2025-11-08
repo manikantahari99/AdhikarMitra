@@ -551,5 +551,302 @@
     },
     "website": "https://excise.ap.gov.in/",
     "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-visakhapatnam",
+    "name": "Income Tax Office, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Central income tax assessment, collection, PAN services, TDS/TCS, and tax compliance. RTI applications accepted at CPI Office.",
+    "contact": {
+      "phone": "0891-2564488",
+      "email": "visakhapatnam.cit@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-vijayawada",
+    "name": "Income Tax Office, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Income tax services including e-filing support, refund processing, grievance redressal. RTI applications handled by CPIO.",
+    "contact": {
+      "phone": "0866-2424666",
+      "email": "vijayawada.cit@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-guntur",
+    "name": "Income Tax Office, Guntur",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Guntur",
+    "description": "Provides tax assessment, PAN card services, and taxpayer assistance. RTI requests processed as per Central Government RTI Act 2005.",
+    "contact": {
+      "phone": "0863-2223344",
+      "email": "guntur.ito@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-tirupati",
+    "name": "Income Tax Office, Tirupati",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Tirupati",
+    "description": "Tax collection, assessment services, and taxpayer grievances. RTI applications accepted at designated CPIO counter.",
+    "contact": {
+      "phone": "0877-2231155",
+      "email": "tirupati.ito@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-visakhapatnam",
+    "name": "GST & Central Excise Office, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "GST registration, return filing, refunds, and central excise compliance. RTI applications to CPIO, appeals to First Appellate Authority.",
+    "contact": {
+      "phone": "0891-2571322",
+      "email": "commr-vizag-cgst@gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-vijayawada",
+    "name": "GST & Central Excise Office, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Central GST services, tax compliance, audit, and anti-evasion. RTI requests handled under CBIC RTI guidelines.",
+    "contact": {
+      "phone": "0866-2442288",
+      "email": "commr-vjd-cgst@gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-passport-visakhapatnam",
+    "name": "Passport Seva Kendra, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Passport application, renewal, police verification. RTI applications to RPO Hyderabad, grievances via mea.gov.in portal.",
+    "contact": {
+      "phone": "0891-2714500",
+      "email": "psk.visakhapatnam@mea.gov.in"
+    },
+    "website": "https://www.passportindia.gov.in/",
+    "helpline": "1800-258-1800",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-passport-vijayawada",
+    "name": "Passport Seva Kendra, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Passport issuance, tatkal services, police clearance. RTI applications processed through RPO under MEA guidelines.",
+    "contact": {
+      "phone": "0866-2491234",
+      "email": "psk.vijayawada@mea.gov.in"
+    },
+    "website": "https://www.passportindia.gov.in/",
+    "helpline": "1800-258-1800",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-visakhapatnam",
+    "name": "Indian Railways, Visakhapatnam Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Railway ticket booking, train operations, parcel services, and passenger grievances. RTI to DRM Office, Visakhapatnam Division.",
+    "contact": {
+      "phone": "0891-2746600",
+      "email": "drm.vskp@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-vijayawada",
+    "name": "Indian Railways, Vijayawada Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Railway services, reservation, freight operations, and complaints. RTI applications handled by CPIO at Divisional Railway Manager office.",
+    "contact": {
+      "phone": "0866-2575000",
+      "email": "drm.bza@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-guntur",
+    "name": "Indian Railways, Guntur Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Guntur",
+    "description": "Train services, station facilities, and commercial operations. RTI queries to Divisional Railway Office as per Railway RTI rules.",
+    "contact": {
+      "phone": "0863-2339999",
+      "email": "drm.gnt@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-visakhapatnam",
+    "name": "Employees' Provident Fund Organisation, Visakhapatnam",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "EPF account management, PF withdrawal, pension schemes. RTI applications to Regional PF Commissioner under Labour Ministry guidelines.",
+    "contact": {
+      "phone": "0891-2563999",
+      "email": "ro.vizag@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-vijayawada",
+    "name": "Employees' Provident Fund Organisation, Vijayawada",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Provident fund services, pension claims, online UAN activation. RTI requests processed by designated CPIO at Regional Office.",
+    "contact": {
+      "phone": "0866-2420888",
+      "email": "ro.vijayawada@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-indiapost-visakhapatnam",
+    "name": "India Post, Visakhapatnam GPO",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Postal services, savings schemes, speed post, and money orders. RTI applications to Chief Postmaster General, AP Circle.",
+    "contact": {
+      "phone": "0891-2564999",
+      "email": "gpo.visakhapatnam@indiapost.gov.in"
+    },
+    "website": "https://www.indiapost.gov.in/",
+    "helpline": "1800-266-6868",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-indiapost-vijayawada",
+    "name": "India Post, Vijayawada GPO",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Mail delivery, parcel services, postal banking, insurance. RTI requests handled through AP Postal Circle CPIO office.",
+    "contact": {
+      "phone": "0866-2577000",
+      "email": "gpo.vijayawada@indiapost.gov.in"
+    },
+    "website": "https://www.indiapost.gov.in/",
+    "helpline": "1800-266-6868",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-esi-visakhapatnam",
+    "name": "Employees' State Insurance Corporation, Visakhapatnam",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "ESI medical services, cashless treatment at empanelled hospitals, maternity benefits. RTI applications to Regional Director ESIC.",
+    "contact": {
+      "phone": "0891-2555777",
+      "email": "rd.vizag@esic.nic.in"
+    },
+    "website": "https://www.esic.gov.in/",
+    "helpline": "1800-110-376",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-labour-commissioner-ap",
+    "name": "Office of Chief Labour Commissioner, Andhra Pradesh",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Labour dispute resolution, wage fixation, industrial relations under central labour laws. RTI to Regional Labour Commissioner office.",
+    "contact": {
+      "phone": "0866-2424333",
+      "email": "clc.ap@nic.in"
+    },
+    "website": "https://clc.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-bsnl-ap",
+    "name": "BSNL Andhra Pradesh Circle",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Telephone, broadband, mobile services, and enterprise solutions. RTI applications to CGM BSNL AP Circle under DoT RTI framework.",
+    "contact": {
+      "phone": "1800-180-1503",
+      "email": "cgm.ap@bsnl.co.in"
+    },
+    "website": "https://www.bsnl.co.in/",
+    "helpline": "1800-180-1503",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dot-ap",
+    "name": "Department of Telecommunications, Andhra Pradesh",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Telecom regulatory services, spectrum management, license issuance. RTI requests to DoT Regional Office under MoCA guidelines.",
+    "contact": {
+      "phone": "0891-2571100",
+      "email": "dot.ap@gov.in"
+    },
+    "website": "https://dot.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cpcb-regional-ap",
+    "name": "Central Pollution Control Board, Regional Office AP",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Environmental monitoring, pollution control, air and water quality data. RTI applications to Regional Director CPCB under MoEFCC.",
+    "contact": {
+      "phone": "0891-2599200",
+      "email": "cpcb.vizag@nic.in"
+    },
+    "website": "https://cpcb.nic.in/",
+    "lastVerified": "2025-11-08"
   }
 ]

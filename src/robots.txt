@@ -1,0 +1,5 @@
+# robots.txt for AdhikarMitra
+User-agent: *
+Allow: /
+
+Sitemap: https://adhikarmitra.vercel.app/sitemap.xml

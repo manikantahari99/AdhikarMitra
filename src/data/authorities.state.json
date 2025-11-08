@@ -1,5 +1,126 @@
 [
   {
+    "id": "ap-general-admin-dept",
+    "name": "General Administration Department (GAD), Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Handles state administrative matters, personnel management, protocol, and coordinates between various government departments to ensure effective governance.",
+    "contact": {
+      "phone": "0866-2441617",
+      "email": "gad_sec@ap.gov.in"
+    },
+    "website": "https://gad.ap.gov.in/",
+    "grievanceEmail": "splcs_gad@ap.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-finance-dept",
+    "name": "Finance Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "finance-administration",
+    "description": "Manages the state's budget, finances, and economic policies. Responsible for treasury operations, pensions, and financial regulations.",
+    "contact": {
+      "phone": "0866-2881414",
+      "email": "prlsecy_fin@ap.gov.in"
+    },
+    "website": "https://finance.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-health-medical-welfare-dept",
+    "name": "Health, Medical & Family Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "health",
+    "description": "Oversees the state's public health services, medical education, hospitals, and family welfare programs. Implements health schemes like Dr. YSR Aarogyasri.",
+    "contact": {
+      "phone": "0866-2570055",
+      "email": "prlsecy_hmfw@ap.gov.in"
+    },
+    "website": "https://hmfw.ap.gov.in/",
+    "grievanceEmail": "apgrievance@ysraarogyasri.ap.gov.in",
+    "helpline": "104",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-home-dept",
+    "name": "Home Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "law-enforcement",
+    "description": "Manages state security, law and order through the police force, oversees prisons, and coordinates fire and emergency services.",
+    "contact": {
+      "phone": "0866-2570522",
+      "email": "prlsecy_home@ap.gov.in"
+    },
+    "website": "https://appolice.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-revenue-dept",
+    "name": "Revenue Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Oversees land administration, revenue collection, commercial taxes, stamps, and registration. Manages land records and property-related services.",
+    "contact": {
+      "phone": "0866-2573734",
+      "email": "ccle_rev@ap.gov.in"
+    },
+    "website": "https://revenue.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-school-education-dept",
+    "name": "School Education Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "education-skill-dev",
+    "description": "Manages primary and secondary education, curriculum development, teacher training, and public examinations across the state.",
+    "contact": {
+      "phone": "0866-2474533",
+      "email": "peshi.splcs.se@gmail.com"
+    },
+    "website": "https://schooledu.ap.gov.in/",
+    "helpline": "14417",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-higher-education-dept",
+    "name": "Higher Education Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "education-skill-dev",
+    "description": "Governs universities, colleges, and technical institutions. Oversees higher education policies, admissions, and academic standards.",
+    "contact": {
+      "phone": "0863-2443538",
+      "email": "secy-he@ap.gov.in"
+    },
+    "website": "https://apsche.ap.gov.in/he_dept.php",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-transport-dept",
+    "name": "Transport Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "transport",
+    "description": "Manages vehicle registration, driving licenses, transport permits, and road safety regulations. Includes the Road Transport Authority (RTA).",
+    "contact": {
+      "phone": "0866-2577798",
+      "email": "tc@aptransport.org"
+    },
+    "website": "https://aptransport.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-maud-dept",
+    "name": "Municipal Administration & Urban Development (MA&UD), Andhra Pradesh",
+    "scope": "state",
+    "category": "civic",
+    "description": "Oversees urban planning, development authorities, and municipal corporations. Manages civic amenities, sanitation, and urban infrastructure projects.",
+    "contact": {
+      "phone": "0863-2347777",
+      "email": "cdma-ap@cdma.gov.in"
+    },
+    "website": "http://cdma.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
     "id": "apspdcl",
     "name": "APSPDCL Electricity Consumer Grievance Cell",
     "scope": "state",
@@ -103,5 +224,1482 @@
     "category": "human-rights",
     "primaryContacts": [ { "raw": "08662999999", "type": "landline", "stdCode": "0866" } ],
     "lastVerified": "2025-09-28"
+  },
+  {
+    "id": "ap-women-child-welfare-dept",
+    "name": "Women Development, Child Welfare & Disabled Welfare Department, AP",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Implements welfare schemes for women, children, and persons with disabilities. Manages Anganwadi services, child protection, and women empowerment programs.",
+    "contact": {
+      "phone": "0866-2410505",
+      "email": "secy-wdcw@ap.gov.in"
+    },
+    "website": "https://wdcw.ap.gov.in/",
+    "helpline": "181",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-social-welfare-dept",
+    "name": "Social Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Provides welfare services for economically disadvantaged groups, senior citizens, and marginalized communities. Manages pension schemes and social security programs.",
+    "contact": {
+      "phone": "0866-2422789",
+      "email": "cmsw@ap.gov.in"
+    },
+    "website": "https://socialwelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-bc-welfare-dept",
+    "name": "Backward Classes Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Implements welfare and development schemes for Backward Classes communities. Provides educational support, hostel facilities, and financial assistance.",
+    "contact": {
+      "phone": "0866-2491515",
+      "email": "bcw@ap.gov.in"
+    },
+    "website": "https://bcwelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-minority-welfare-dept",
+    "name": "Minority Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Promotes welfare and development of minority communities through educational scholarships, employment programs, and community infrastructure projects.",
+    "contact": {
+      "phone": "0866-2484252",
+      "email": "cmminority@ap.gov.in"
+    },
+    "website": "https://apminoritywelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-agriculture-dept",
+    "name": "Agriculture Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Supports crop cultivation, soil health management, and farmer welfare programs. Implements agricultural schemes, subsidies, and modern farming techniques.",
+    "contact": {
+      "phone": "0866-2574999",
+      "email": "cmag@ap.gov.in"
+    },
+    "website": "https://agriculture.ap.gov.in/",
+    "helpline": "155261",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-animal-husbandry-dept",
+    "name": "Animal Husbandry Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Promotes livestock development, dairy farming, poultry, and veterinary services. Implements animal health programs and breed improvement schemes.",
+    "contact": {
+      "phone": "0866-2422530",
+      "email": "cah-ap@nic.in"
+    },
+    "website": "https://ahdap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-fisheries-dept",
+    "name": "Fisheries Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Manages fisheries development, aquaculture promotion, and fishing community welfare. Oversees fish production, marketing, and coastal fishing regulations.",
+    "contact": {
+      "phone": "0866-2430577",
+      "email": "cmfisheries@ap.gov.in"
+    },
+    "website": "https://fisheries.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-panchayat-raj-dept",
+    "name": "Panchayat Raj & Rural Development Department, AP",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Strengthens local self-governance through gram panchayats. Implements rural development programs, MGNREGA, and village infrastructure projects.",
+    "contact": {
+      "phone": "0866-2430400",
+      "email": "cmpr@ap.gov.in"
+    },
+    "website": "https://panchayatiraj.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-water-resources-dept",
+    "name": "Water Resources Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Manages irrigation projects, dams, canals, and water storage facilities. Oversees Polavaram and other major irrigation projects across the state.",
+    "contact": {
+      "phone": "0866-2422988",
+      "email": "cewr@ap.gov.in"
+    },
+    "website": "https://waterresources.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-energy-dept",
+    "name": "Energy Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Formulates energy policy, promotes renewable energy projects, and coordinates with power distribution companies. Oversees electricity generation and supply.",
+    "contact": {
+      "phone": "0866-2491333",
+      "email": "secy-energy@ap.gov.in"
+    },
+    "website": "https://aperc.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-roads-buildings-dept",
+    "name": "Roads & Buildings Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Constructs and maintains state highways, bridges, and public buildings. Manages infrastructure projects and road safety initiatives.",
+    "contact": {
+      "phone": "0863-2340555",
+      "email": "ce-rb@ap.gov.in"
+    },
+    "website": "https://aproadstransport.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-housing-dept",
+    "name": "Housing Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Implements affordable housing schemes like Navaratnalu Housing and manages urban housing projects. Provides financial assistance for home construction.",
+    "contact": {
+      "phone": "0866-2410666",
+      "email": "cmhousing@ap.gov.in"
+    },
+    "website": "https://housing.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-industries-dept",
+    "name": "Industries & Commerce Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Promotes industrial development, investment facilitation, and MSMEs. Manages industrial parks, SEZs, and business incentives through AP Industrial Infrastructure Corporation.",
+    "contact": {
+      "phone": "0863-2340615",
+      "email": "indus-ap@nic.in"
+    },
+    "website": "https://www.apindustries.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-it-electronics-dept",
+    "name": "Information Technology, Electronics & Communications Department, AP",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Drives IT industry growth, promotes electronics manufacturing, and develops technology infrastructure. Manages IT parks and digital transformation initiatives.",
+    "contact": {
+      "phone": "040-23119955",
+      "email": "info@itap.gov.in"
+    },
+    "website": "https://itap.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-tourism-dept",
+    "name": "Tourism, Culture & Youth Services Department, AP",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Promotes tourism destinations, cultural heritage sites, and youth development programs. Manages tourism infrastructure and cultural events across the state.",
+    "contact": {
+      "phone": "0866-2577966",
+      "email": "aptourism@ap.gov.in"
+    },
+    "website": "https://aptourism.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-forest-dept",
+    "name": "Forest Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "environment-forest",
+    "description": "Conserves forests, wildlife, and biodiversity. Manages protected areas, eco-tourism, and implements afforestation and wildlife protection programs.",
+    "contact": {
+      "phone": "0866-2417192",
+      "email": "pccf@apforest.gov.in"
+    },
+    "website": "https://forest.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-environment-dept",
+    "name": "Environment, Forest, Science & Technology Department, AP",
+    "scope": "state",
+    "category": "environment-forest",
+    "description": "Monitors environmental compliance, pollution control, and climate action. Issues environmental clearances and implements green initiatives.",
+    "contact": {
+      "phone": "0866-2422255",
+      "email": "appcb@ap.gov.in"
+    },
+    "website": "https://appcb.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-labour-dept",
+    "name": "Labour, Employment, Training & Factories Department, AP",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Enforces labour laws, promotes employment generation, and provides skill training. Manages labour welfare schemes and industrial safety regulations.",
+    "contact": {
+      "phone": "0866-2491177",
+      "email": "cmlabour@ap.gov.in"
+    },
+    "website": "https://labour.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-civil-supplies-dept",
+    "name": "Civil Supplies Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Manages public distribution system (PDS), fair price shops, and food security programs. Oversees procurement and distribution of essential commodities.",
+    "contact": {
+      "phone": "0866-2422688",
+      "email": "cmcivilsupplies@ap.gov.in"
+    },
+    "website": "https://epds.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-commercial-taxes-dept",
+    "name": "Commercial Taxes Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Administers GST, VAT, and other state taxes. Manages tax registration, returns, refunds, and compliance enforcement for businesses.",
+    "contact": {
+      "phone": "0866-2428888",
+      "email": "cct-ap@nic.in"
+    },
+    "website": "https://www.apct.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-stamps-registration-dept",
+    "name": "Stamps & Registration Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Registers property transactions, maintains land records, and collects stamp duty. Provides document registration and property verification services.",
+    "contact": {
+      "phone": "0866-2423444",
+      "email": "igrs-ap@nic.in"
+    },
+    "website": "https://registration.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-legal-affairs-dept",
+    "name": "Legal Affairs & Legislative Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Provides legal advice to government departments, drafts legislation, and coordinates legislative affairs. Manages government litigation and legal services.",
+    "contact": {
+      "phone": "0866-2491900",
+      "email": "law-ap@nic.in"
+    },
+    "website": "https://aplegislature.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-information-pr-dept",
+    "name": "Information & Public Relations Department, AP",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Disseminates government information, manages media relations, and operates state-owned publications. Handles public communication and awareness campaigns.",
+    "contact": {
+      "phone": "0866-2474070",
+      "email": "dipr-ap@ap.gov.in"
+    },
+    "website": "https://www.apinformation.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-planning-dept",
+    "name": "Planning Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "finance-administration",
+    "description": "Formulates state development plans, coordinates economic policy, and monitors project implementation. Prepares annual budgets and five-year plans.",
+    "contact": {
+      "phone": "0866-2490200",
+      "email": "planning-ap@nic.in"
+    },
+    "website": "https://planning.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-excise-dept",
+    "name": "Prohibition & Excise Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Regulates alcohol and narcotic substances, issues licenses for liquor sales, and enforces excise laws. Manages state excise revenue collection.",
+    "contact": {
+      "phone": "0866-2487777",
+      "email": "excise-ap@nic.in"
+    },
+    "website": "https://excise.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-visakhapatnam",
+    "name": "Income Tax Office, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Central income tax assessment, collection, PAN services, TDS/TCS, and tax compliance. RTI applications accepted at CPI Office.",
+    "contact": {
+      "phone": "0891-2564488",
+      "email": "visakhapatnam.cit@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-vijayawada",
+    "name": "Income Tax Office, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Income tax services including e-filing support, refund processing, grievance redressal. RTI applications handled by CPIO.",
+    "contact": {
+      "phone": "0866-2424666",
+      "email": "vijayawada.cit@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-guntur",
+    "name": "Income Tax Office, Guntur",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Guntur",
+    "description": "Provides tax assessment, PAN card services, and taxpayer assistance. RTI requests processed as per Central Government RTI Act 2005.",
+    "contact": {
+      "phone": "0863-2223344",
+      "email": "guntur.ito@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-income-tax-tirupati",
+    "name": "Income Tax Office, Tirupati",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Tirupati",
+    "description": "Tax collection, assessment services, and taxpayer grievances. RTI applications accepted at designated CPIO counter.",
+    "contact": {
+      "phone": "0877-2231155",
+      "email": "tirupati.ito@incometax.gov.in"
+    },
+    "website": "https://www.incometax.gov.in/",
+    "helpline": "1800-180-1961",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-visakhapatnam",
+    "name": "GST & Central Excise Office, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "GST registration, return filing, refunds, and central excise compliance. RTI applications to CPIO, appeals to First Appellate Authority.",
+    "contact": {
+      "phone": "0891-2571322",
+      "email": "commr-vizag-cgst@gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-vijayawada",
+    "name": "GST & Central Excise Office, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Central GST services, tax compliance, audit, and anti-evasion. RTI requests handled under CBIC RTI guidelines.",
+    "contact": {
+      "phone": "0866-2442288",
+      "email": "commr-vjd-cgst@gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-passport-visakhapatnam",
+    "name": "Passport Seva Kendra, Visakhapatnam",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Passport application, renewal, police verification. RTI applications to RPO Hyderabad, grievances via mea.gov.in portal.",
+    "contact": {
+      "phone": "0891-2714500",
+      "email": "psk.visakhapatnam@mea.gov.in"
+    },
+    "website": "https://www.passportindia.gov.in/",
+    "helpline": "1800-258-1800",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-passport-vijayawada",
+    "name": "Passport Seva Kendra, Vijayawada",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Krishna",
+    "description": "Passport issuance, tatkal services, police clearance. RTI applications processed through RPO under MEA guidelines.",
+    "contact": {
+      "phone": "0866-2491234",
+      "email": "psk.vijayawada@mea.gov.in"
+    },
+    "website": "https://www.passportindia.gov.in/",
+    "helpline": "1800-258-1800",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-visakhapatnam",
+    "name": "Indian Railways, Visakhapatnam Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Railway ticket booking, train operations, parcel services, and passenger grievances. RTI to DRM Office, Visakhapatnam Division.",
+    "contact": {
+      "phone": "0891-2746600",
+      "email": "drm.vskp@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-vijayawada",
+    "name": "Indian Railways, Vijayawada Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Railway services, reservation, freight operations, and complaints. RTI applications handled by CPIO at Divisional Railway Manager office.",
+    "contact": {
+      "phone": "0866-2575000",
+      "email": "drm.bza@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-guntur",
+    "name": "Indian Railways, Guntur Division",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Guntur",
+    "description": "Train services, station facilities, and commercial operations. RTI queries to Divisional Railway Office as per Railway RTI rules.",
+    "contact": {
+      "phone": "0863-2339999",
+      "email": "drm.gnt@railnet.gov.in"
+    },
+    "website": "https://enquiry.indianrail.gov.in/",
+    "helpline": "139",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-visakhapatnam",
+    "name": "Employees' Provident Fund Organisation, Visakhapatnam",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "EPF account management, PF withdrawal, pension schemes. RTI applications to Regional PF Commissioner under Labour Ministry guidelines.",
+    "contact": {
+      "phone": "0891-2563999",
+      "email": "ro.vizag@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-vijayawada",
+    "name": "Employees' Provident Fund Organisation, Vijayawada",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Provident fund services, pension claims, online UAN activation. RTI requests processed by designated CPIO at Regional Office.",
+    "contact": {
+      "phone": "0866-2420888",
+      "email": "ro.vijayawada@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-indiapost-visakhapatnam",
+    "name": "India Post, Visakhapatnam GPO",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Postal services, savings schemes, speed post, and money orders. RTI applications to Chief Postmaster General, AP Circle.",
+    "contact": {
+      "phone": "0891-2564999",
+      "email": "gpo.visakhapatnam@indiapost.gov.in"
+    },
+    "website": "https://www.indiapost.gov.in/",
+    "helpline": "1800-266-6868",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-indiapost-vijayawada",
+    "name": "India Post, Vijayawada GPO",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Mail delivery, parcel services, postal banking, insurance. RTI requests handled through AP Postal Circle CPIO office.",
+    "contact": {
+      "phone": "0866-2577000",
+      "email": "gpo.vijayawada@indiapost.gov.in"
+    },
+    "website": "https://www.indiapost.gov.in/",
+    "helpline": "1800-266-6868",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-esi-visakhapatnam",
+    "name": "Employees' State Insurance Corporation, Visakhapatnam",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "ESI medical services, cashless treatment at empanelled hospitals, maternity benefits. RTI applications to Regional Director ESIC.",
+    "contact": {
+      "phone": "0891-2555777",
+      "email": "rd.vizag@esic.nic.in"
+    },
+    "website": "https://www.esic.gov.in/",
+    "helpline": "1800-110-376",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-labour-commissioner-ap",
+    "name": "Office of Chief Labour Commissioner, Andhra Pradesh",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Krishna",
+    "description": "Labour dispute resolution, wage fixation, industrial relations under central labour laws. RTI to Regional Labour Commissioner office.",
+    "contact": {
+      "phone": "0866-2424333",
+      "email": "clc.ap@nic.in"
+    },
+    "website": "https://clc.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-bsnl-ap",
+    "name": "BSNL Andhra Pradesh Circle",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Telephone, broadband, mobile services, and enterprise solutions. RTI applications to CGM BSNL AP Circle under DoT RTI framework.",
+    "contact": {
+      "phone": "1800-180-1503",
+      "email": "cgm.ap@bsnl.co.in"
+    },
+    "website": "https://www.bsnl.co.in/",
+    "helpline": "1800-180-1503",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dot-ap",
+    "name": "Department of Telecommunications, Andhra Pradesh",
+    "scope": "central",
+    "category": "central-public-services",
+    "district": "Visakhapatnam",
+    "description": "Telecom regulatory services, spectrum management, license issuance. RTI requests to DoT Regional Office under MoCA guidelines.",
+    "contact": {
+      "phone": "0891-2571100",
+      "email": "dot.ap@gov.in"
+    },
+    "website": "https://dot.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cpcb-regional-ap",
+    "name": "Central Pollution Control Board, Regional Office AP",
+    "scope": "central",
+    "category": "central-admin",
+    "district": "Visakhapatnam",
+    "description": "Environmental monitoring, pollution control, air and water quality data. RTI applications to Regional Director CPCB under MoEFCC.",
+    "contact": {
+      "phone": "0891-2599200",
+      "email": "cpcb.vizag@nic.in"
+    },
+    "website": "https://cpcb.nic.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-police-100",
+    "name": "🚨 Police Emergency - 100",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 emergency police assistance across India. Dial 100 for immediate police help, crime reporting, accidents, and public safety emergencies.",
+    "contact": {
+      "phone": "100"
+    },
+    "helpline": "100",
+    "website": "https://www.dial100.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-fire-101",
+    "name": "🔥 Fire Emergency - 101",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 fire brigade emergency services. Dial 101 for fire incidents, rescue operations, and fire safety emergencies across India.",
+    "contact": {
+      "phone": "101"
+    },
+    "helpline": "101",
+    "website": "https://ndma.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-ambulance-102-108",
+    "name": "🚑 Ambulance Emergency - 102 / 108",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 free ambulance service. Dial 102 (National Ambulance Service) or 108 (Emergency Response Service) for medical emergencies across India.",
+    "contact": {
+      "phone": "102"
+    },
+    "helpline": "102 / 108",
+    "website": "https://nha.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-women-helpline-181",
+    "name": "👩 Women Helpline - 181",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 women helpline for domestic violence, harassment, and safety concerns. Toll-free service connecting to nearest police station and One Stop Centre.",
+    "contact": {
+      "phone": "181"
+    },
+    "helpline": "181",
+    "website": "https://wcd.nic.in/",
+    "grievanceEmail": "complaints-wcd@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-child-helpline-1098",
+    "name": "👶 Child Helpline - 1098",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 toll-free emergency service for children in distress. Report child abuse, missing children, trafficking, and access child protection services.",
+    "contact": {
+      "phone": "1098"
+    },
+    "helpline": "1098",
+    "website": "https://www.childlineindia.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-disaster-ndrf",
+    "name": "⛑️ National Disaster Response - 1078 / 9711077372",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "NDRF (National Disaster Response Force) emergency helpline for natural disasters, earthquakes, floods, cyclones, and mass casualty incidents.",
+    "contact": {
+      "phone": "1078",
+      "email": "ndrf.hq@nic.in"
+    },
+    "helpline": "1078 / 9711077372",
+    "website": "https://ndrf.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-railway-139",
+    "name": "🚂 Railway Helpline - 139",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 railway passenger inquiry, complaints, and emergency assistance. Security concerns, medical emergencies on trains, and passenger grievances.",
+    "contact": {
+      "phone": "139"
+    },
+    "helpline": "139",
+    "website": "https://enquiry.indianrail.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "emergency-highway-1033",
+    "name": "🛣️ National Highway Emergency - 1033",
+    "scope": "central",
+    "category": "emergency-services",
+    "description": "24x7 highway emergency services on National Highways. Report accidents, breakdowns, and access medical assistance on highways.",
+    "contact": {
+      "phone": "1033"
+    },
+    "helpline": "1033",
+    "website": "https://nhai.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-rbi",
+    "name": "Reserve Bank of India (RBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Central banking authority regulating monetary policy, banking sector, and currency management. File complaints against banks, frauds, digital payments. Grievance: cms.rbi.org.in",
+    "contact": {
+      "phone": "022-22602201",
+      "email": "cgrm@rbi.org.in"
+    },
+    "website": "https://www.rbi.org.in/",
+    "grievanceEmail": "cgrm@rbi.org.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cbi",
+    "name": "Central Bureau of Investigation (CBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Premier investigating agency for corruption, economic offenses, and special crimes. Anti-Corruption helpline: 1800-110-180. Submit online complaints at cbi.gov.in",
+    "contact": {
+      "phone": "011-24360000",
+      "email": "dir.cbi@gov.in"
+    },
+    "website": "https://cbi.gov.in/",
+    "helpline": "1800-110-180",
+    "grievanceEmail": "complaints.cbi@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-ed",
+    "name": "Enforcement Directorate (ED)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Investigates economic crimes, money laundering (PMLA), and foreign exchange violations (FEMA). Report financial irregularities and economic offenses.",
+    "contact": {
+      "phone": "011-24364690",
+      "email": "director@ed.nic.in"
+    },
+    "website": "https://enforcementdirectorate.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-lokpal",
+    "name": "Lokpal (Anti-Corruption Ombudsman)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional authority to investigate corruption by public servants, including PM, Ministers, MPs. File complaints against high-level public officials online.",
+    "contact": {
+      "phone": "011-23034100",
+      "email": "chairperson@lokpal.gov.in"
+    },
+    "website": "https://lokpal.gov.in/",
+    "grievanceEmail": "complaints@lokpal.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-eci",
+    "name": "Election Commission of India (ECI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional body conducting elections, maintaining electoral rolls. Voter ID services, complaints against electoral malpractices. Voter Helpline: 1950",
+    "contact": {
+      "phone": "011-23052205",
+      "email": "complaints@eci.gov.in"
+    },
+    "website": "https://eci.gov.in/",
+    "helpline": "1950",
+    "grievanceEmail": "complaints@eci.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cag",
+    "name": "Comptroller and Auditor General of India (CAG)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional auditor of government accounts, revenue, expenditure. RTI applications accepted. Reports financial irregularities to Parliament.",
+    "contact": {
+      "phone": "011-23212366",
+      "email": "ca.g@cag.gov.in"
+    },
+    "website": "https://cag.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-nhrc",
+    "name": "National Human Rights Commission (NHRC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Statutory body protecting human rights. File complaints for rights violations, custodial deaths, police brutality. Online complaint portal available.",
+    "contact": {
+      "phone": "011-23385368",
+      "email": "covdnhrc@nic.in"
+    },
+    "website": "https://nhrc.nic.in/",
+    "helpline": "1800-11-4000",
+    "grievanceEmail": "complaints@nhrc.nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cvc",
+    "name": "Central Vigilance Commission (CVC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Apex integrity institution monitoring government corruption. File vigilance complaints against central govt employees. Whistleblower protection available.",
+    "contact": {
+      "phone": "011-24651010",
+      "email": "cvc@nic.in"
+    },
+    "website": "https://cvc.gov.in/",
+    "helpline": "1800-110-180",
+    "grievanceEmail": "complaints.cvc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-cic",
+    "name": "Central Information Commission (CIC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Statutory body enforcing Right to Information Act. File appeals for RTI rejections, delays. Ensures government transparency and accountability.",
+    "contact": {
+      "phone": "011-23052039",
+      "email": "cic@nic.in"
+    },
+    "website": "https://cic.gov.in/",
+    "grievanceEmail": "appeals@cic.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "independent-upsc",
+    "name": "Union Public Service Commission (UPSC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Constitutional body conducting civil services examinations (IAS, IPS, IFS). Candidate grievances, exam queries, recruitment information.",
+    "contact": {
+      "phone": "011-23385271",
+      "email": "upsc@nic.in"
+    },
+    "website": "https://upsc.gov.in/",
+    "grievanceEmail": "grievance-upsc@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cpgrams-portal",
+    "name": "CPGRAMS - Centralized Public Grievance Portal",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Online platform to file grievances against any central government ministry/department. Track complaint status, escalation mechanism, 60-day resolution target.",
+    "contact": {
+      "phone": "011-23092595",
+      "email": "pgportal@gov.in"
+    },
+    "website": "https://pgportal.gov.in/",
+    "grievanceEmail": "pgportal@gov.in",
+    "helpline": "1800-11-1555",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-rti-online",
+    "name": "RTI Online Portal - All Ministries",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "File RTI applications online to any central government ministry/department. Track status, appeals to CIC. Fee: ₹10 per application.",
+    "contact": {
+      "email": "rti@gov.in"
+    },
+    "website": "https://rtionline.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aadhaar-uidai",
+    "name": "UIDAI - Aadhaar Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Aadhaar enrollment, updates, download e-Aadhaar, mobile linking, address update. Helpline: 1947. Locate nearest Aadhaar center.",
+    "contact": {
+      "phone": "1947",
+      "email": "help@uidai.gov.in"
+    },
+    "website": "https://uidai.gov.in/",
+    "helpline": "1947",
+    "grievanceEmail": "complaints@uidai.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nhai",
+    "name": "National Highways Authority of India (NHAI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "National highways development, toll collection, FASTag services. File complaints for toll issues, highway conditions, construction delays. RTI: cpio@nhai.gov.in",
+    "contact": {
+      "phone": "011-26192457",
+      "email": "nhai@nhai.gov.in"
+    },
+    "website": "https://nhai.gov.in/",
+    "helpline": "1033",
+    "grievanceEmail": "grievance@nhai.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aai",
+    "name": "Airports Authority of India (AAI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Airport operations, air traffic control, passenger facilities. File complaints for airport services, lost baggage assistance, facility grievances.",
+    "contact": {
+      "phone": "011-24622950",
+      "email": "chairman@aai.aero"
+    },
+    "website": "https://www.aai.aero/",
+    "helpline": "1800-111-950",
+    "grievanceEmail": "customercare@aai.aero",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-sebi",
+    "name": "Securities and Exchange Board of India (SEBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Securities market regulator. File complaints against brokers, mutual funds, IPO frauds, market manipulation. SCORES portal for investor grievances.",
+    "contact": {
+      "phone": "022-26449000",
+      "email": "sebi@sebi.gov.in"
+    },
+    "website": "https://www.sebi.gov.in/",
+    "helpline": "1800-266-7575",
+    "grievanceEmail": "complaints@sebi.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-irdai",
+    "name": "Insurance Regulatory and Development Authority (IRDAI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Insurance industry regulator. File complaints for claim rejection, policy mis-selling, premium disputes. Bima Bharosa portal for grievances.",
+    "contact": {
+      "phone": "040-20204000",
+      "email": "complaints@irdai.gov.in"
+    },
+    "website": "https://www.irdai.gov.in/",
+    "helpline": "155255",
+    "grievanceEmail": "grievance@irdai.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-pfrda",
+    "name": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "National Pension System (NPS) regulator. File complaints for NPS account issues, withdrawal delays, PRAN card problems. CRA-NSDL grievances.",
+    "contact": {
+      "phone": "011-26517501",
+      "email": "npstrust@npstrust.org.in"
+    },
+    "website": "https://www.npstrust.org.in/",
+    "helpline": "1800-222-080",
+    "grievanceEmail": "grievances@npstrust.org.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-consumer-helpline",
+    "name": "National Consumer Helpline (NCH)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Consumer complaints and guidance. File complaints for defective products, service deficiency, unfair trade practices. 24x7 helpline in 17 languages.",
+    "contact": {
+      "phone": "1800-11-4000",
+      "email": "nch@nic.in"
+    },
+    "website": "https://consumerhelpline.gov.in/",
+    "helpline": "1915",
+    "grievanceEmail": "complaints@consumerhelpline.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-fci",
+    "name": "Food Corporation of India (FCI)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Food grain procurement, storage, distribution. File complaints for PDS (Public Distribution System), ration card issues, food quality, fair price shops.",
+    "contact": {
+      "phone": "011-24367310",
+      "email": "md@fci.gov.in"
+    },
+    "website": "https://fci.gov.in/",
+    "helpline": "1800-180-1150",
+    "grievanceEmail": "fci.ho@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-esic-hq",
+    "name": "Employees' State Insurance Corporation (ESIC) Headquarters",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Social security for workers. ESI card, medical benefits, sickness benefits, maternity benefits, unemployment allowance. RTI: cpio.esic@nic.in",
+    "contact": {
+      "phone": "011-23231180",
+      "email": "dgoffice@esic.nic.in"
+    },
+    "website": "https://www.esic.gov.in/",
+    "helpline": "1800-112-526",
+    "grievanceEmail": "grievances@esic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-hq",
+    "name": "Employees' Provident Fund Organisation (EPFO) Headquarters",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Provident fund, pension scheme. UAN activation, PF withdrawal, pension claims, Form 31, transfer claims. Unified portal: epfindia.gov.in",
+    "contact": {
+      "phone": "011-22044700",
+      "email": "cpfc@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "grievanceEmail": "grievance@epfindia.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ayushman-bharat",
+    "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PMJAY)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Health insurance scheme for poor families. ₹5 lakh coverage, cashless treatment, hospital empanelment, Ayushman card download. Helpline: 14555",
+    "contact": {
+      "phone": "011-23061145",
+      "email": "info@pmjay.gov.in"
+    },
+    "website": "https://pmjay.gov.in/",
+    "helpline": "14555",
+    "grievanceEmail": "grievance@pmjay.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncw",
+    "name": "National Commission for Women (NCW)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Women's rights protection. File complaints for domestic violence, sexual harassment, dowry harassment, rape, eve-teasing. 24x7 helpline available.",
+    "contact": {
+      "phone": "011-26944880",
+      "email": "chairperson-ncw@nic.in"
+    },
+    "website": "https://ncw.nic.in/",
+    "helpline": "7827-170-170",
+    "grievanceEmail": "complaints-ncw@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncpcr",
+    "name": "National Commission for Protection of Child Rights (NCPCR)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Child rights protection. File complaints for child labor, child abuse, child marriage, trafficking, education rights violations. Online complaint portal.",
+    "contact": {
+      "phone": "011-23478200",
+      "email": "ncpcr@nic.in"
+    },
+    "website": "https://ncpcr.gov.in/",
+    "helpline": "1098",
+    "grievanceEmail": "complaints-ncpcr@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ccpd",
+    "name": "Chief Commissioner for Persons with Disabilities (CCPD)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Disability rights protection. File complaints for accessibility issues, discrimination, UDID card, disability certificate, reservation violations.",
+    "contact": {
+      "phone": "011-24365051",
+      "email": "ccpd@nic.in"
+    },
+    "website": "https://www.ccdisabilities.nic.in/",
+    "helpline": "1800-111-019",
+    "grievanceEmail": "grievances-ccpd@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncsc",
+    "name": "National Commission for Senior Citizens (NCSC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Senior citizen rights protection. File complaints for elderly abuse, neglect, pension issues, senior citizen card, maintenance claims under Section 125 CrPC.",
+    "contact": {
+      "phone": "011-23347379",
+      "email": "ncsc-msjc@nic.in"
+    },
+    "website": "http://www.socialjustice.nic.in/",
+    "helpline": "1800-180-1253",
+    "grievanceEmail": "grievances-ncsc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ugc",
+    "name": "University Grants Commission (UGC)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Higher education regulator. University recognition, UGC NET, scholarships, fake university list, college accreditation, degree equivalence.",
+    "contact": {
+      "phone": "011-23236288",
+      "email": "ugc@ugc.ac.in"
+    },
+    "website": "https://www.ugc.ac.in/",
+    "helpline": "1800-180-1415",
+    "grievanceEmail": "grievance@ugc.ac.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aicte",
+    "name": "All India Council for Technical Education (AICTE)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Technical education regulator. College approval, degree equivalence, scholarships, fake institution complaints, quality standards, faculty norms.",
+    "contact": {
+      "phone": "011-29581312",
+      "email": "chairman@aicte-india.org"
+    },
+    "website": "https://www.aicte-india.org/",
+    "helpline": "1800-102-4412",
+    "grievanceEmail": "grievances@aicte-india.org",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cbse",
+    "name": "Central Board of Secondary Education (CBSE)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "School education board. Exam results, certificates, affiliation, re-evaluation, migration certificate, duplicate marksheet. Helpline: 1800-11-8004",
+    "contact": {
+      "phone": "011-23212603",
+      "email": "directoracad.cbse@nic.in"
+    },
+    "website": "https://www.cbse.gov.in/",
+    "helpline": "1800-11-8004",
+    "grievanceEmail": "cbseregistrar@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-icmr",
+    "name": "Indian Council of Medical Research (ICMR)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Medical research, health guidelines, COVID-19 testing labs, clinical trials, research grants, ethical guidelines, biomedical research.",
+    "contact": {
+      "phone": "011-26588980",
+      "email": "icmr.root@gov.in"
+    },
+    "website": "https://www.icmr.gov.in/",
+    "grievanceEmail": "grievance@icmr.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dgca",
+    "name": "Directorate General of Civil Aviation (DGCA)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Aviation regulator. File complaints for flight delays, cancellations, baggage issues, refund problems. Air Sewa portal for grievances. Helpline: 1800-111-009",
+    "contact": {
+      "phone": "011-24624171",
+      "email": "dgca@nic.in"
+    },
+    "website": "https://www.dgca.gov.in/",
+    "helpline": "1800-111-009",
+    "grievanceEmail": "airsewa@aai.aero",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dgft",
+    "name": "Directorate General of Foreign Trade (DGFT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Export-import policy, IEC (Import Export Code), export incentives, MEIS, SEIS, trade disputes, licensing. eDGFT portal for online services.",
+    "contact": {
+      "phone": "011-23063234",
+      "email": "dgft@nic.in"
+    },
+    "website": "https://dgft.gov.in/",
+    "helpline": "1800-111-550",
+    "grievanceEmail": "grievances.dgft@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ministry-external-affairs",
+    "name": "Ministry of External Affairs (MEA)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Passport, visa, OCI (Overseas Citizen of India) card, consular services, Indian missions abroad, emergency travel documents, emigration clearance.",
+    "contact": {
+      "phone": "011-23012200",
+      "email": "cpio.mea@mea.gov.in"
+    },
+    "website": "https://www.mea.gov.in/",
+    "helpline": "1800-111-204",
+    "grievanceEmail": "public.grievance@mea.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-enquiry",
+    "name": "Indian Railways Enquiry & Reservation",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Railway ticket booking, PNR status, train running status, refund, tatkal booking, senior citizen concession. IRCTC portal for online booking.",
+    "contact": {
+      "phone": "011-23340000",
+      "email": "care@irctc.co.in"
+    },
+    "website": "https://www.irctc.co.in/",
+    "helpline": "139",
+    "grievanceEmail": "customercare@irctc.co.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-lic",
+    "name": "Life Insurance Corporation of India (LIC)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Life insurance, pension plans, policy servicing, premium payment, maturity claims, death claims, policy loan, surrender. Customer portal available.",
+    "contact": {
+      "phone": "022-66521111",
+      "email": "customercare@licindia.com"
+    },
+    "website": "https://www.licindia.in/",
+    "helpline": "1800-258-5678",
+    "grievanceEmail": "co_complaints@licindia.com",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nsdl-pan",
+    "name": "NSDL - PAN Card Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "PAN card application, correction, reprint, Aadhaar-PAN linking, PAN verification, instant e-PAN. Online application at tin.tin.nsdl.com",
+    "contact": {
+      "phone": "022-27927700",
+      "email": "tininfo@nsdl.co.in"
+    },
+    "website": "https://www.onlineservices.nsdl.com/",
+    "helpline": "020-27218080",
+    "grievanceEmail": "grievance@nsdl.co.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-helpline",
+    "name": "GST Helpline & Grievance",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "GST registration, return filing, refund claims, input tax credit, GST portal issues, GSTR-1/3B filing. Helpline: 1800-103-4786",
+    "contact": {
+      "phone": "1800-103-4786",
+      "email": "helpdesk@gst.gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "grievanceEmail": "grievances@gst.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-pmkisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "₹6000 annual assistance to farmers. Check status, Aadhaar linking, bank account update, rejection reasons, beneficiary list. Helpline: 155261",
+    "contact": {
+      "phone": "011-24300606",
+      "email": "pmkisan-ict@gov.in"
+    },
+    "website": "https://pmkisan.gov.in/",
+    "helpline": "155261",
+    "grievanceEmail": "pmkisan-grievance@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ujjwala-yojana",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free LPG connection to poor women. Application, refill subsidy, KYC update, transfer connection, surrender connection. Helpline: 1906",
+    "contact": {
+      "phone": "011-23717260",
+      "email": "ujjwalayojana@nic.in"
+    },
+    "website": "https://www.pmuy.gov.in/",
+    "helpline": "1906",
+    "grievanceEmail": "grievances-pmuy@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ministry-law-justice",
+    "name": "Ministry of Law and Justice",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Legal affairs, legislation drafting, law commission, law reforms. RTI applications, legal policy, judicial appointments, law revision. eCourts portal access.",
+    "contact": {
+      "phone": "011-23384993",
+      "email": "secylaw@nic.in"
+    },
+    "website": "https://lawmin.gov.in/",
+    "grievanceEmail": "pg-lawmin@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-department-justice",
+    "name": "Department of Justice (DoJ)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "eCourts services, judicial appointments, legal aid, Lok Adalat, fast track courts, case status, cause lists. National Judicial Data Grid access.",
+    "contact": {
+      "phone": "011-23384396",
+      "email": "doj-mha@nic.in"
+    },
+    "website": "https://doj.gov.in/",
+    "helpline": "1800-345-3570",
+    "grievanceEmail": "grievance-doj@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ecourts",
+    "name": "eCourts Services Mission Mode Project",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Online case status, cause lists, court orders, judgments. National Judicial Data Grid, virtual courts, e-filing, case tracking for district and high courts.",
+    "contact": {
+      "phone": "011-23388922",
+      "email": "ecourts@gov.in"
+    },
+    "website": "https://ecourts.gov.in/",
+    "helpline": "1800-425-7465",
+    "grievanceEmail": "support@ecourts.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nalsa",
+    "name": "National Legal Services Authority (NALSA)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free legal aid to poor, women, SC/ST, disabled, victims. Legal awareness, Lok Adalat, legal aid clinics, pro bono services, para-legal volunteers.",
+    "contact": {
+      "phone": "011-23388272",
+      "email": "nalsa@gov.in"
+    },
+    "website": "https://nalsa.gov.in/",
+    "helpline": "15100",
+    "grievanceEmail": "complaints-nalsa@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-supreme-court",
+    "name": "Supreme Court of India",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Apex court, case filing, cause lists, judgments, court orders. Supreme Court Legal Services Committee for free legal aid. Helpline for case status.",
+    "contact": {
+      "phone": "011-23388922",
+      "email": "registry@sci.gov.in"
+    },
+    "website": "https://main.sci.gov.in/",
+    "grievanceEmail": "publicrelations@sci.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-law-commission",
+    "name": "Law Commission of India",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Law reform recommendations, research on legal issues, obsolete law identification, new legislation suggestions. Public consultation on legal reforms.",
+    "contact": {
+      "phone": "011-23386596",
+      "email": "lci@nic.in"
+    },
+    "website": "https://lawcommissionofindia.nic.in/",
+    "grievanceEmail": "lawcommission@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nclt",
+    "name": "National Company Law Tribunal (NCLT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Company law disputes, insolvency cases, mergers, amalgamations, corporate restructuring. File corporate insolvency resolution, liquidation cases.",
+    "contact": {
+      "phone": "011-24361459",
+      "email": "nclt@mca.gov.in"
+    },
+    "website": "https://nclt.gov.in/",
+    "grievanceEmail": "grievances-nclt@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nclat",
+    "name": "National Company Law Appellate Tribunal (NCLAT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Appeals against NCLT orders, competition commission orders. Insolvency and bankruptcy code appeals, merger and acquisition disputes.",
+    "contact": {
+      "phone": "011-24365079",
+      "email": "nclat@mca.gov.in"
+    },
+    "website": "https://nclat.nic.in/",
+    "grievanceEmail": "grievances-nclat@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncdrc",
+    "name": "National Consumer Disputes Redressal Commission (NCDRC)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Consumer disputes above ₹10 crore, appeals from state commissions. Online case filing, e-daakhil portal, consumer case tracking, judgments.",
+    "contact": {
+      "phone": "011-23389239",
+      "email": "ncdrc@nic.in"
+    },
+    "website": "https://ncdrc.nic.in/",
+    "helpline": "1800-11-4000",
+    "grievanceEmail": "complaints-ncdrc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-national-lok-adalat",
+    "name": "National Lok Adalat Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free dispute resolution, pre-litigation settlement, pending case settlement. National Lok Adalat days, traffic challans, electricity bills, cheque bounce cases.",
+    "contact": {
+      "phone": "011-23388272",
+      "email": "lokaadalat@nalsa.gov.in"
+    },
+    "website": "https://nalsa.gov.in/",
+    "helpline": "15100",
+    "grievanceEmail": "lokaadalat-grievances@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-bar-council-india",
+    "name": "Bar Council of India (BCI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Advocate enrollment, law college recognition, legal education, professional conduct. File complaints against advocates, verify enrollment, transfer certificate.",
+    "contact": {
+      "phone": "011-23382305",
+      "email": "bci@nic.in"
+    },
+    "website": "https://www.barcouncilofindia.org/",
+    "grievanceEmail": "complaints-bci@gov.in",
+    "lastVerified": "2025-11-08"
   }
 ]

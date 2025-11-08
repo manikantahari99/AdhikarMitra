@@ -60,7 +60,8 @@
   }
 
   function applyFilters(){
-    const term = ($(searchInputId)?.value || '').trim().toLowerCase();
+    const input = $(searchInputId);
+    const term = (input?.value || '').trim().toLowerCase();
     let filtered = allAuthorities;
     
     // If no category selected and no search term, show empty state message

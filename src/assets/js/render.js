@@ -110,8 +110,15 @@ const Renderer = (function(){
   function renderAuthorityList(authorities, showPrompt = false){
     const section = document.getElementById('results');
     if(!section) return;
+    
     let list = section.querySelector('ul.authority-list');
-    if(list) list.innerHTML=''; else { list = el('ul','authority-list'); list.setAttribute('role','list'); section.appendChild(list); }
+    if(list) {
+      list.innerHTML='';
+    } else { 
+      list = el('ul','authority-list'); 
+      list.setAttribute('role','list'); 
+      section.appendChild(list);
+    }
     
     // If showPrompt is true and no authorities, show selection prompt
     if(showPrompt && authorities.length === 0){

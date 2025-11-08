@@ -4,18 +4,35 @@ Public grievance & rights authority directory (Andhra Pradesh first, then India)
 
 ## Current Status
 
-Early scaffolding phase. See `CHANGELOG.md` and `specs/001-adhikarmitra-public-grievance/tasks.md` for progress.
+Phase 0–4 complete. Story 1 (Find & View Authority Detail) fully functional. See `CHANGELOG.md` and `specs/001-adhikarmitra-public-grievance/tasks.md` for details.
 
 ## Quick Run (Local Static Preview)
 
-Use any static file server or VS Code Live Server extension. For PowerShell you can run:
+**Recommended**: Use the provided PowerShell script:
 
 ```powershell
-# Simple Python fallback if installed
+.\serve.ps1
+```
+
+This will start the server on port 8120 and automatically open your browser.
+
+**Alternative**: Any static file server works:
+
+```powershell
 python -m http.server 8080
 ```
 
 Then open <http://localhost:8080/src/index.html>
+
+## Features (Story 1 Complete)
+
+- ✅ Browse authorities by category
+- ✅ Search by name/category (debounced input)
+- ✅ View detailed authority pages with routing (#authority/id)
+- ✅ Copy phone numbers to clipboard
+- ✅ Keyboard navigation & WCAG 2.1 AA accessibility
+- ✅ Responsive design with dark mode support
+- ✅ Performance optimized (vanilla JS, no frameworks)
 
 ## Performance & Accessibility Budgets
 

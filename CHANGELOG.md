@@ -15,6 +15,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Data layer foundation: categories.json, authorities.state.json, data README, validation & phone formatting utilities (T020–T024).
 - Category rendering, search input + filtering, authority list + no-result state, initial performance notes (T030–T036).
 - Visual enhancement: background gradients + emblem (globe + A) added (design improvement).
+- Phase 4 complete: Hash routing, detail page with all mandatory fields, copy-to-clipboard, last-verified formatting, keyboard accessibility (T040–T045).
 
 ### Planned
 

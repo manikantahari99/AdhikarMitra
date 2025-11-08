@@ -1,5 +1,126 @@
 [
   {
+    "id": "ap-general-admin-dept",
+    "name": "General Administration Department (GAD), Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Handles state administrative matters, personnel management, protocol, and coordinates between various government departments to ensure effective governance.",
+    "contact": {
+      "phone": "0866-2441617",
+      "email": "gad_sec@ap.gov.in"
+    },
+    "website": "https://gad.ap.gov.in/",
+    "grievanceEmail": "splcs_gad@ap.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-finance-dept",
+    "name": "Finance Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "finance-administration",
+    "description": "Manages the state's budget, finances, and economic policies. Responsible for treasury operations, pensions, and financial regulations.",
+    "contact": {
+      "phone": "0866-2881414",
+      "email": "prlsecy_fin@ap.gov.in"
+    },
+    "website": "https://finance.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-health-medical-welfare-dept",
+    "name": "Health, Medical & Family Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "health",
+    "description": "Oversees the state's public health services, medical education, hospitals, and family welfare programs. Implements health schemes like Dr. YSR Aarogyasri.",
+    "contact": {
+      "phone": "0866-2570055",
+      "email": "prlsecy_hmfw@ap.gov.in"
+    },
+    "website": "https://hmfw.ap.gov.in/",
+    "grievanceEmail": "apgrievance@ysraarogyasri.ap.gov.in",
+    "helpline": "104",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-home-dept",
+    "name": "Home Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "law-enforcement",
+    "description": "Manages state security, law and order through the police force, oversees prisons, and coordinates fire and emergency services.",
+    "contact": {
+      "phone": "0866-2570522",
+      "email": "prlsecy_home@ap.gov.in"
+    },
+    "website": "https://appolice.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-revenue-dept",
+    "name": "Revenue Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Oversees land administration, revenue collection, commercial taxes, stamps, and registration. Manages land records and property-related services.",
+    "contact": {
+      "phone": "0866-2573734",
+      "email": "ccle_rev@ap.gov.in"
+    },
+    "website": "https://revenue.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-school-education-dept",
+    "name": "School Education Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "education-skill-dev",
+    "description": "Manages primary and secondary education, curriculum development, teacher training, and public examinations across the state.",
+    "contact": {
+      "phone": "0866-2474533",
+      "email": "peshi.splcs.se@gmail.com"
+    },
+    "website": "https://schooledu.ap.gov.in/",
+    "helpline": "14417",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-higher-education-dept",
+    "name": "Higher Education Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "education-skill-dev",
+    "description": "Governs universities, colleges, and technical institutions. Oversees higher education policies, admissions, and academic standards.",
+    "contact": {
+      "phone": "0863-2443538",
+      "email": "secy-he@ap.gov.in"
+    },
+    "website": "https://apsche.ap.gov.in/he_dept.php",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-transport-dept",
+    "name": "Transport Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "transport",
+    "description": "Manages vehicle registration, driving licenses, transport permits, and road safety regulations. Includes the Road Transport Authority (RTA).",
+    "contact": {
+      "phone": "0866-2577798",
+      "email": "tc@aptransport.org"
+    },
+    "website": "https://aptransport.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-maud-dept",
+    "name": "Municipal Administration & Urban Development (MA&UD), Andhra Pradesh",
+    "scope": "state",
+    "category": "civic",
+    "description": "Oversees urban planning, development authorities, and municipal corporations. Manages civic amenities, sanitation, and urban infrastructure projects.",
+    "contact": {
+      "phone": "0863-2347777",
+      "email": "cdma-ap@cdma.gov.in"
+    },
+    "website": "http://cdma.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
     "id": "apspdcl",
     "name": "APSPDCL Electricity Consumer Grievance Cell",
     "scope": "state",

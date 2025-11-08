@@ -11,50 +11,74 @@
   <header role="banner">
     <div class="branding">
       <div class="logo-emblem" aria-hidden="true">
-        <img src="assets/img/emblem.svg" width="48" height="48" alt="" loading="lazy" />
+        <img src="assets/img/emblem.svg" width="64" height="64" alt="" loading="lazy" />
       </div>
       <div class="brand-text">
-        <h1>AdhikarMitra</h1>
-        <p class="tagline">Find grievance helplines & escalation paths (Andhra Pradesh)</p>
+        <h1>🇮🇳 AdhikarMitra</h1>
+        <p class="tagline">Your Rights, Your Voice | Public Grievance Directory for Andhra Pradesh</p>
       </div>
     </div>
     <nav aria-label="Primary" class="primary-nav">
       <ul>
-        <li><a href="#categories" id="nav-categories">Categories</a></li>
-        <li><a href="#search" id="nav-search">Search</a></li>
-        <li><a href="../CHANGELOG.md" target="_blank" rel="noopener">Changelog</a></li>
+        <li><a href="#categories" id="nav-categories">📂 Categories</a></li>
+        <li><a href="#search" id="nav-search">🔍 Search</a></li>
+        <li><a href="../CHANGELOG.md" target="_blank" rel="noopener">📋 Changelog</a></li>
       </ul>
     </nav>
   </header>
   <main id="app" tabindex="-1">
     <!-- Search Section (T032) -->
     <section id="search" aria-labelledby="search-heading">
-      <h2 id="search-heading">Search Authorities</h2>
-      <label for="search-input" class="visually-hidden">Search by name or category</label>
-      <input id="search-input" type="search" placeholder="Search by name or category" autocomplete="off" />
+      <h2 id="search-heading">🔍 Search Government Authorities</h2>
+      <p class="muted">Find the right department quickly by name, category, email, or phone number</p>
+      <label for="search-input" class="visually-hidden">Search by name, category, email, or phone</label>
+      <input id="search-input" type="search" placeholder="🔎 Type to search departments..." autocomplete="off" />
+      
+      <!-- Scope Filter Tabs (State/Central) -->
+      <div class="scope-filters" role="group" aria-label="Filter by government level">
+        <button type="button" class="scope-filter-btn active" data-scope="all">
+          🇮🇳 All Authorities
+        </button>
+        <button type="button" class="scope-filter-btn" data-scope="state">
+          🏛️ State Government
+        </button>
+        <button type="button" class="scope-filter-btn" data-scope="central">
+          🏢 Central Government
+        </button>
+      </div>
     </section>
     <!-- Categories (T030) -->
     <section id="categories" aria-labelledby="categories-heading">
-      <h2 id="categories-heading">Browse by Category</h2>
-      <p class="muted">Select a category to filter authorities.</p>
+      <h2 id="categories-heading">📂 Browse by Category</h2>
+      <p class="muted">Select a category to filter authorities and find what you need</p>
     </section>
     <!-- Results List (T035) -->
     <section id="results" aria-labelledby="results-heading">
-      <h2 id="results-heading">Authorities (<span id="results-count">0</span>)</h2>
-      <div id="no-results" role="alert" hidden>No results. Try adjusting your search or clearing filters.</div>
+      <h2 id="results-heading">📋 Government Departments (<span id="results-count">0</span>)</h2>
+      <div id="no-results" role="alert" hidden>
+        <strong>No results found.</strong> Try adjusting your search terms or clearing filters.
+      </div>
     </section>
-    <section aria-labelledby="intro-heading">
-      <h2 id="intro-heading">Project Status</h2>
-      <p>Implementation in progress. See CHANGELOG and tasks for status.</p>
+    <section aria-labelledby="intro-heading" style="border-left-color: #138808;">
+      <h2 id="intro-heading">ℹ️ About This Portal</h2>
+      <p><strong>AdhikarMitra</strong> is your comprehensive directory of Andhra Pradesh government departments and grievance mechanisms. This portal helps citizens:</p>
+      <ul>
+        <li>📞 Find contact information for state and district authorities</li>
+        <li>📧 Access official email addresses for grievances</li>
+        <li>🌐 Navigate to official government websites</li>
+        <li>📍 Locate district-level offices</li>
+      </ul>
+      <p class="muted"><em>Implementation in progress. See CHANGELOG for updates.</em></p>
     </section>
   </main>
   <footer role="contentinfo">
-    <small>© <span id="year"></span> AdhikarMitra (Draft)</small>
+    <small>🇮🇳 © <span id="year"></span> AdhikarMitra | Empowering Citizens of Andhra Pradesh | Jai Hind</small>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/formatPhone.js"></script>
   <script src="assets/js/data.js"></script>
   <script src="assets/js/render.js"></script>
+  <script src="assets/js/router.js"></script>
   <script src="assets/js/search.js"></script>
 </body>
 </html>

@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://adhikarmitra.ap.gov.in/schemas/authorities-v2.json",
+  "title": "AdhikarMitra Authorities Data Schema",
+  "description": "JSON schema for validating authority and category data in AdhikarMitra application (Feature 002)",
+  "version": "2.0.0",
+  "definitions": {
+    "contact": {
+      "type": "object",
+      "required": ["phone", "email"],
+      "properties": {
+        "phone": {
+          "type": "string",
+          "pattern": "^(\\d{10}|\\d{4}-\\d{7})$",
+          "description": "10-digit phone number or STD code format (0xxx-xxxxxxx)",
+          "examples": ["8632222222", "0863-2222222"]
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "pattern": "\\.gov\\.in$",
+          "description": "Email address with .gov.in domain",
+          "examples": ["contact@aptransport.gov.in"]
+        },
+        "grievanceEmail": {
+          "type": "string",
+          "format": "email",
+          "pattern": "\\.gov\\.in$",
+          "description": "Dedicated grievance email (must differ from primary email)",
+          "examples": ["grievance@aptransport.gov.in"]
+        },
+        "helpline": {
+          "type": "string",
+          "pattern": "^(\\d{10}|1800-\\d{3}-\\d{4})$",
+          "description": "Toll-free helpline (1800-xxx-xxxx) or 10-digit number",
+          "examples": ["1800-425-2000", "100"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "authority": {
+      "type": "object",
+      "required": ["id", "name", "category", "description", "contact", "website", "lastVerified"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]{3,50}$",
+          "description": "Unique identifier in kebab-case",
+          "examples": ["rto-guntur", "ap-police-hq"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100,
+          "description": "Human-readable authority name",
+          "examples": ["Regional Transport Office, Guntur"]
+        },
+        "category": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]{3,30}$",
+          "description": "Category ID (must exist in categories.json)",
+          "examples": ["transport", "law-enforcement"]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 100,
+          "maxLength": 300,
+          "description": "Authority description (100-300 characters)",
+          "examples": ["Vehicle registration and licensing services for Guntur district"]
+        },
+        "contact": {
+          "$ref": "#/definitions/contact"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Official website URL (HTTPS required)",
+          "examples": ["https://aptransport.gov.in/rto/guntur"]
+        },
+        "departmentWebsite": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Parent department website (if different from authority site)",
+          "examples": ["https://aptransport.gov.in", null]
+        },
+        "district": {
+          "type": ["string", "null"],
+          "enum": [
+            null,
+            "Alluri Sitharama Raju",
+            "Anakapalli",
+            "Ananthapuramu",
+            "Annamayya",
+            "Bapatla",
+            "Chittoor",
+            "Dr. B.R. Ambedkar Konaseema",
+            "East Godavari",
+            "Eluru",
+            "Guntur",
+            "Kakinada",
+            "Krishna",
+            "Kurnool",
+            "Nandyal",
+            "NTR",
+            "Palnadu",
+            "Parvathipuram Manyam",
+            "Prakasam",
+            "Sri Potti Sriramulu Nellore",
+            "Sri Sathya Sai",
+            "Srikakulam",
+            "Tirupati",
+            "Visakhapatnam",
+            "Vizianagaram",
+            "West Godavari",
+            "YSR Kadapa"
+          ],
+          "description": "AP district name (null for state-level authorities)",
+          "examples": ["Guntur", null]
+        },
+        "parentDepartment": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z0-9-]{3,50}$",
+          "description": "Parent department authority ID (for district-level offices)",
+          "examples": ["transport-dept", null]
+        },
+        "lastVerified": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Last verification date (ISO 8601 format: YYYY-MM-DD)",
+          "examples": ["2024-12-01"]
+        },
+        "escalationPath": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]{3,50}$"
+          },
+          "uniqueItems": true,
+          "description": "Array of authority IDs for escalation (ordered)",
+          "examples": [["transport-dept", "state-transport-commissioner"]]
+        }
+      },
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "object",
+      "required": ["id", "name", "description", "icon"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]{3,30}$",
+          "description": "Unique category identifier in kebab-case",
+          "examples": ["transport", "education-skill-dev"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 50,
+          "description": "Human-readable category name",
+          "examples": ["Transport", "Education & Skill Development"]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 200,
+          "description": "Category description (50-200 characters)",
+          "examples": ["Road transport, vehicle registration, and licensing services"]
+        },
+        "icon": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Icon identifier (emoji or CSS class)",
+          "examples": ["🚗", "transport-icon"]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "oneOf": [
+    {
+      "title": "Authorities File",
+      "required": ["authorities"],
+      "properties": {
+        "authorities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/authority"
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Array of authority objects"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Categories File",
+      "required": ["categories"],
+      "properties": {
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/category"
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Array of category objects"
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "examples": [
+    {
+      "authorities": [
+        {
+          "id": "rto-guntur",
+          "name": "Regional Transport Office, Guntur",
+          "category": "transport",
+          "description": "Vehicle registration and licensing services for Guntur district, including driving tests, vehicle inspections, and transport permits.",
+          "contact": {
+            "phone": "0863-2222222",
+            "email": "rto.guntur@aptransport.gov.in",
+            "grievanceEmail": "grievance.rto.guntur@ap.gov.in",
+            "helpline": "1800-425-2000"
+          },
+          "website": "https://aptransport.gov.in/rto/guntur",
+          "departmentWebsite": "https://aptransport.gov.in",
+          "district": "Guntur",
+          "parentDepartment": "transport-dept",
+          "lastVerified": "2024-12-01",
+          "escalationPath": ["transport-dept", "state-transport-commissioner"]
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "id": "transport",
+          "name": "Transport",
+          "description": "Road transport services, vehicle registration, driving licenses, and transport permits for private and commercial vehicles.",
+          "icon": "🚗"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 /* global DataStore, Renderer */
 (function(){
   let allAuthorities = [];
+  let allCategories = [];
   let activeCategory = null;
   let activeScope = 'all'; // 'all', 'state', or 'central'
   const searchInputId = 'search-input';
@@ -28,9 +29,34 @@
         btn.classList.add('active');
         // Update active scope
         activeScope = btn.getAttribute('data-scope');
+        // Reset active category when switching scope
+        activeCategory = null;
+        // Update categories display based on new scope
+        updateCategoriesForScope();
+        // Clear results until user selects a category or searches
         applyFilters();
       });
     });
+  }
+
+  function updateCategoriesForScope(){
+    // Filter categories based on scope
+    let filteredCategories = allCategories;
+    
+    if(activeScope === 'state'){
+      // For state: show only state-related categories
+      // Exclude: emergency-services, independent-bodies, central-admin, central-public-services
+      const centralOnlyCategories = ['emergency-services', 'independent-bodies', 'central-admin', 'central-public-services'];
+      filteredCategories = allCategories.filter(cat => !centralOnlyCategories.includes(cat.id));
+    } else if(activeScope === 'central'){
+      // For central: show only central-related categories
+      // Include: emergency-services, independent-bodies, central-admin, central-public-services
+      const centralCategories = ['emergency-services', 'independent-bodies', 'central-admin', 'central-public-services'];
+      filteredCategories = allCategories.filter(cat => centralCategories.includes(cat.id));
+    }
+    // For 'all' scope, show all categories
+    
+    Renderer.renderCategories(filteredCategories);
   }
 
   function applyFilters(){
@@ -54,14 +80,20 @@
       });
     }
     
+    // If no category selected and no search term, show empty state message
+    if(!activeCategory && !term){
+      Renderer.renderAuthorityList([], true); // true = show selection prompt
+      return;
+    }
+    
     Renderer.renderAuthorityList(filtered);
   }
 
   async function bootstrap(){
-    const cats = await DataStore.loadCategories();
-    Renderer.renderCategories(cats);
+    allCategories = await DataStore.loadCategories();
+    updateCategoriesForScope(); // Initial render with 'all' scope
     allAuthorities = await DataStore.loadAuthoritiesState();
-    applyFilters();
+    applyFilters(); // Will show empty state initially
     initSearch();
     initScopeFilters(); // Initialize scope filter buttons
     document.addEventListener('category:selected', e=>{

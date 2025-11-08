@@ -15,6 +15,10 @@ const Renderer = (function(){
       btn.type='button';
       btn.setAttribute('data-category',cat.id);
       btn.addEventListener('click',()=>{
+        // Remove active class from all category buttons
+        document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+        // Add active class to clicked button
+        btn.classList.add('active');
         document.dispatchEvent(new CustomEvent('category:selected',{ detail:{ id: cat.id } }));
       });
       li.appendChild(btn);
@@ -103,11 +107,23 @@ const Renderer = (function(){
     return li;
   }
 
-  function renderAuthorityList(authorities){
+  function renderAuthorityList(authorities, showPrompt = false){
     const section = document.getElementById('results');
     if(!section) return;
     let list = section.querySelector('ul.authority-list');
     if(list) list.innerHTML=''; else { list = el('ul','authority-list'); list.setAttribute('role','list'); section.appendChild(list); }
+    
+    // If showPrompt is true and no authorities, show selection prompt
+    if(showPrompt && authorities.length === 0){
+      const promptDiv = el('div', 'selection-prompt');
+      promptDiv.innerHTML = '<p style="text-align: center; padding: 2rem; color: #666;"><strong>👆 Select a category above or use search to find departments</strong></p>';
+      list.appendChild(promptDiv);
+      const countEl = document.getElementById('results-count');
+      if(countEl) countEl.textContent = '0';
+      toggleNoResults(false); // Don't show "no results" message
+      return;
+    }
+    
     authorities.forEach(a=> list.appendChild(buildAuthorityCard(a)) );
     const countEl = document.getElementById('results-count');
     if(countEl) countEl.textContent = authorities.length.toString();

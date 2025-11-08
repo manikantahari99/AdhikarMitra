@@ -1138,5 +1138,409 @@
     "helpline": "1947",
     "grievanceEmail": "complaints@uidai.gov.in",
     "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nhai",
+    "name": "National Highways Authority of India (NHAI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "National highways development, toll collection, FASTag services. File complaints for toll issues, highway conditions, construction delays. RTI: cpio@nhai.gov.in",
+    "contact": {
+      "phone": "011-26192457",
+      "email": "nhai@nhai.gov.in"
+    },
+    "website": "https://nhai.gov.in/",
+    "helpline": "1033",
+    "grievanceEmail": "grievance@nhai.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aai",
+    "name": "Airports Authority of India (AAI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Airport operations, air traffic control, passenger facilities. File complaints for airport services, lost baggage assistance, facility grievances.",
+    "contact": {
+      "phone": "011-24622950",
+      "email": "chairman@aai.aero"
+    },
+    "website": "https://www.aai.aero/",
+    "helpline": "1800-111-950",
+    "grievanceEmail": "customercare@aai.aero",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-sebi",
+    "name": "Securities and Exchange Board of India (SEBI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Securities market regulator. File complaints against brokers, mutual funds, IPO frauds, market manipulation. SCORES portal for investor grievances.",
+    "contact": {
+      "phone": "022-26449000",
+      "email": "sebi@sebi.gov.in"
+    },
+    "website": "https://www.sebi.gov.in/",
+    "helpline": "1800-266-7575",
+    "grievanceEmail": "complaints@sebi.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-irdai",
+    "name": "Insurance Regulatory and Development Authority (IRDAI)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Insurance industry regulator. File complaints for claim rejection, policy mis-selling, premium disputes. Bima Bharosa portal for grievances.",
+    "contact": {
+      "phone": "040-20204000",
+      "email": "complaints@irdai.gov.in"
+    },
+    "website": "https://www.irdai.gov.in/",
+    "helpline": "155255",
+    "grievanceEmail": "grievance@irdai.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-pfrda",
+    "name": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "National Pension System (NPS) regulator. File complaints for NPS account issues, withdrawal delays, PRAN card problems. CRA-NSDL grievances.",
+    "contact": {
+      "phone": "011-26517501",
+      "email": "npstrust@npstrust.org.in"
+    },
+    "website": "https://www.npstrust.org.in/",
+    "helpline": "1800-222-080",
+    "grievanceEmail": "grievances@npstrust.org.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-consumer-helpline",
+    "name": "National Consumer Helpline (NCH)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Consumer complaints and guidance. File complaints for defective products, service deficiency, unfair trade practices. 24x7 helpline in 17 languages.",
+    "contact": {
+      "phone": "1800-11-4000",
+      "email": "nch@nic.in"
+    },
+    "website": "https://consumerhelpline.gov.in/",
+    "helpline": "1915",
+    "grievanceEmail": "complaints@consumerhelpline.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-fci",
+    "name": "Food Corporation of India (FCI)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Food grain procurement, storage, distribution. File complaints for PDS (Public Distribution System), ration card issues, food quality, fair price shops.",
+    "contact": {
+      "phone": "011-24367310",
+      "email": "md@fci.gov.in"
+    },
+    "website": "https://fci.gov.in/",
+    "helpline": "1800-180-1150",
+    "grievanceEmail": "fci.ho@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-esic-hq",
+    "name": "Employees' State Insurance Corporation (ESIC) Headquarters",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Social security for workers. ESI card, medical benefits, sickness benefits, maternity benefits, unemployment allowance. RTI: cpio.esic@nic.in",
+    "contact": {
+      "phone": "011-23231180",
+      "email": "dgoffice@esic.nic.in"
+    },
+    "website": "https://www.esic.gov.in/",
+    "helpline": "1800-112-526",
+    "grievanceEmail": "grievances@esic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-epfo-hq",
+    "name": "Employees' Provident Fund Organisation (EPFO) Headquarters",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Provident fund, pension scheme. UAN activation, PF withdrawal, pension claims, Form 31, transfer claims. Unified portal: epfindia.gov.in",
+    "contact": {
+      "phone": "011-22044700",
+      "email": "cpfc@epfindia.gov.in"
+    },
+    "website": "https://www.epfindia.gov.in/",
+    "helpline": "1800-118-005",
+    "grievanceEmail": "grievance@epfindia.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ayushman-bharat",
+    "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PMJAY)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Health insurance scheme for poor families. ₹5 lakh coverage, cashless treatment, hospital empanelment, Ayushman card download. Helpline: 14555",
+    "contact": {
+      "phone": "011-23061145",
+      "email": "info@pmjay.gov.in"
+    },
+    "website": "https://pmjay.gov.in/",
+    "helpline": "14555",
+    "grievanceEmail": "grievance@pmjay.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncw",
+    "name": "National Commission for Women (NCW)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Women's rights protection. File complaints for domestic violence, sexual harassment, dowry harassment, rape, eve-teasing. 24x7 helpline available.",
+    "contact": {
+      "phone": "011-26944880",
+      "email": "chairperson-ncw@nic.in"
+    },
+    "website": "https://ncw.nic.in/",
+    "helpline": "7827-170-170",
+    "grievanceEmail": "complaints-ncw@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncpcr",
+    "name": "National Commission for Protection of Child Rights (NCPCR)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Child rights protection. File complaints for child labor, child abuse, child marriage, trafficking, education rights violations. Online complaint portal.",
+    "contact": {
+      "phone": "011-23478200",
+      "email": "ncpcr@nic.in"
+    },
+    "website": "https://ncpcr.gov.in/",
+    "helpline": "1098",
+    "grievanceEmail": "complaints-ncpcr@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ccpd",
+    "name": "Chief Commissioner for Persons with Disabilities (CCPD)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Disability rights protection. File complaints for accessibility issues, discrimination, UDID card, disability certificate, reservation violations.",
+    "contact": {
+      "phone": "011-24365051",
+      "email": "ccpd@nic.in"
+    },
+    "website": "https://www.ccdisabilities.nic.in/",
+    "helpline": "1800-111-019",
+    "grievanceEmail": "grievances-ccpd@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncsc",
+    "name": "National Commission for Senior Citizens (NCSC)",
+    "scope": "central",
+    "category": "independent-bodies",
+    "description": "Senior citizen rights protection. File complaints for elderly abuse, neglect, pension issues, senior citizen card, maintenance claims under Section 125 CrPC.",
+    "contact": {
+      "phone": "011-23347379",
+      "email": "ncsc-msjc@nic.in"
+    },
+    "website": "http://www.socialjustice.nic.in/",
+    "helpline": "1800-180-1253",
+    "grievanceEmail": "grievances-ncsc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ugc",
+    "name": "University Grants Commission (UGC)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Higher education regulator. University recognition, UGC NET, scholarships, fake university list, college accreditation, degree equivalence.",
+    "contact": {
+      "phone": "011-23236288",
+      "email": "ugc@ugc.ac.in"
+    },
+    "website": "https://www.ugc.ac.in/",
+    "helpline": "1800-180-1415",
+    "grievanceEmail": "grievance@ugc.ac.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-aicte",
+    "name": "All India Council for Technical Education (AICTE)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Technical education regulator. College approval, degree equivalence, scholarships, fake institution complaints, quality standards, faculty norms.",
+    "contact": {
+      "phone": "011-29581312",
+      "email": "chairman@aicte-india.org"
+    },
+    "website": "https://www.aicte-india.org/",
+    "helpline": "1800-102-4412",
+    "grievanceEmail": "grievances@aicte-india.org",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-cbse",
+    "name": "Central Board of Secondary Education (CBSE)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "School education board. Exam results, certificates, affiliation, re-evaluation, migration certificate, duplicate marksheet. Helpline: 1800-11-8004",
+    "contact": {
+      "phone": "011-23212603",
+      "email": "directoracad.cbse@nic.in"
+    },
+    "website": "https://www.cbse.gov.in/",
+    "helpline": "1800-11-8004",
+    "grievanceEmail": "cbseregistrar@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-icmr",
+    "name": "Indian Council of Medical Research (ICMR)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Medical research, health guidelines, COVID-19 testing labs, clinical trials, research grants, ethical guidelines, biomedical research.",
+    "contact": {
+      "phone": "011-26588980",
+      "email": "icmr.root@gov.in"
+    },
+    "website": "https://www.icmr.gov.in/",
+    "grievanceEmail": "grievance@icmr.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dgca",
+    "name": "Directorate General of Civil Aviation (DGCA)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Aviation regulator. File complaints for flight delays, cancellations, baggage issues, refund problems. Air Sewa portal for grievances. Helpline: 1800-111-009",
+    "contact": {
+      "phone": "011-24624171",
+      "email": "dgca@nic.in"
+    },
+    "website": "https://www.dgca.gov.in/",
+    "helpline": "1800-111-009",
+    "grievanceEmail": "airsewa@aai.aero",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-dgft",
+    "name": "Directorate General of Foreign Trade (DGFT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Export-import policy, IEC (Import Export Code), export incentives, MEIS, SEIS, trade disputes, licensing. eDGFT portal for online services.",
+    "contact": {
+      "phone": "011-23063234",
+      "email": "dgft@nic.in"
+    },
+    "website": "https://dgft.gov.in/",
+    "helpline": "1800-111-550",
+    "grievanceEmail": "grievances.dgft@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ministry-external-affairs",
+    "name": "Ministry of External Affairs (MEA)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Passport, visa, OCI (Overseas Citizen of India) card, consular services, Indian missions abroad, emergency travel documents, emigration clearance.",
+    "contact": {
+      "phone": "011-23012200",
+      "email": "cpio.mea@mea.gov.in"
+    },
+    "website": "https://www.mea.gov.in/",
+    "helpline": "1800-111-204",
+    "grievanceEmail": "public.grievance@mea.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-railways-enquiry",
+    "name": "Indian Railways Enquiry & Reservation",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Railway ticket booking, PNR status, train running status, refund, tatkal booking, senior citizen concession. IRCTC portal for online booking.",
+    "contact": {
+      "phone": "011-23340000",
+      "email": "care@irctc.co.in"
+    },
+    "website": "https://www.irctc.co.in/",
+    "helpline": "139",
+    "grievanceEmail": "customercare@irctc.co.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-lic",
+    "name": "Life Insurance Corporation of India (LIC)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Life insurance, pension plans, policy servicing, premium payment, maturity claims, death claims, policy loan, surrender. Customer portal available.",
+    "contact": {
+      "phone": "022-66521111",
+      "email": "customercare@licindia.com"
+    },
+    "website": "https://www.licindia.in/",
+    "helpline": "1800-258-5678",
+    "grievanceEmail": "co_complaints@licindia.com",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nsdl-pan",
+    "name": "NSDL - PAN Card Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "PAN card application, correction, reprint, Aadhaar-PAN linking, PAN verification, instant e-PAN. Online application at tin.tin.nsdl.com",
+    "contact": {
+      "phone": "022-27927700",
+      "email": "tininfo@nsdl.co.in"
+    },
+    "website": "https://www.onlineservices.nsdl.com/",
+    "helpline": "020-27218080",
+    "grievanceEmail": "grievance@nsdl.co.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-gst-helpline",
+    "name": "GST Helpline & Grievance",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "GST registration, return filing, refund claims, input tax credit, GST portal issues, GSTR-1/3B filing. Helpline: 1800-103-4786",
+    "contact": {
+      "phone": "1800-103-4786",
+      "email": "helpdesk@gst.gov.in"
+    },
+    "website": "https://www.gst.gov.in/",
+    "helpline": "1800-103-4786",
+    "grievanceEmail": "grievances@gst.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-pmkisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "₹6000 annual assistance to farmers. Check status, Aadhaar linking, bank account update, rejection reasons, beneficiary list. Helpline: 155261",
+    "contact": {
+      "phone": "011-24300606",
+      "email": "pmkisan-ict@gov.in"
+    },
+    "website": "https://pmkisan.gov.in/",
+    "helpline": "155261",
+    "grievanceEmail": "pmkisan-grievance@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ujjwala-yojana",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free LPG connection to poor women. Application, refill subsidy, KYC update, transfer connection, surrender connection. Helpline: 1906",
+    "contact": {
+      "phone": "011-23717260",
+      "email": "ujjwalayojana@nic.in"
+    },
+    "website": "https://www.pmuy.gov.in/",
+    "helpline": "1906",
+    "grievanceEmail": "grievances-pmuy@gov.in",
+    "lastVerified": "2025-11-08"
   }
 ]

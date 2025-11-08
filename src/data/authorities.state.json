@@ -224,5 +224,332 @@
     "category": "human-rights",
     "primaryContacts": [ { "raw": "08662999999", "type": "landline", "stdCode": "0866" } ],
     "lastVerified": "2025-09-28"
+  },
+  {
+    "id": "ap-women-child-welfare-dept",
+    "name": "Women Development, Child Welfare & Disabled Welfare Department, AP",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Implements welfare schemes for women, children, and persons with disabilities. Manages Anganwadi services, child protection, and women empowerment programs.",
+    "contact": {
+      "phone": "0866-2410505",
+      "email": "secy-wdcw@ap.gov.in"
+    },
+    "website": "https://wdcw.ap.gov.in/",
+    "helpline": "181",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-social-welfare-dept",
+    "name": "Social Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Provides welfare services for economically disadvantaged groups, senior citizens, and marginalized communities. Manages pension schemes and social security programs.",
+    "contact": {
+      "phone": "0866-2422789",
+      "email": "cmsw@ap.gov.in"
+    },
+    "website": "https://socialwelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-bc-welfare-dept",
+    "name": "Backward Classes Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Implements welfare and development schemes for Backward Classes communities. Provides educational support, hostel facilities, and financial assistance.",
+    "contact": {
+      "phone": "0866-2491515",
+      "email": "bcw@ap.gov.in"
+    },
+    "website": "https://bcwelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-minority-welfare-dept",
+    "name": "Minority Welfare Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "social-welfare",
+    "description": "Promotes welfare and development of minority communities through educational scholarships, employment programs, and community infrastructure projects.",
+    "contact": {
+      "phone": "0866-2484252",
+      "email": "cmminority@ap.gov.in"
+    },
+    "website": "https://apminoritywelfare.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-agriculture-dept",
+    "name": "Agriculture Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Supports crop cultivation, soil health management, and farmer welfare programs. Implements agricultural schemes, subsidies, and modern farming techniques.",
+    "contact": {
+      "phone": "0866-2574999",
+      "email": "cmag@ap.gov.in"
+    },
+    "website": "https://agriculture.ap.gov.in/",
+    "helpline": "155261",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-animal-husbandry-dept",
+    "name": "Animal Husbandry Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Promotes livestock development, dairy farming, poultry, and veterinary services. Implements animal health programs and breed improvement schemes.",
+    "contact": {
+      "phone": "0866-2422530",
+      "email": "cah-ap@nic.in"
+    },
+    "website": "https://ahdap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-fisheries-dept",
+    "name": "Fisheries Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Manages fisheries development, aquaculture promotion, and fishing community welfare. Oversees fish production, marketing, and coastal fishing regulations.",
+    "contact": {
+      "phone": "0866-2430577",
+      "email": "cmfisheries@ap.gov.in"
+    },
+    "website": "https://fisheries.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-panchayat-raj-dept",
+    "name": "Panchayat Raj & Rural Development Department, AP",
+    "scope": "state",
+    "category": "agriculture-rural-dev",
+    "description": "Strengthens local self-governance through gram panchayats. Implements rural development programs, MGNREGA, and village infrastructure projects.",
+    "contact": {
+      "phone": "0866-2430400",
+      "email": "cmpr@ap.gov.in"
+    },
+    "website": "https://panchayatiraj.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-water-resources-dept",
+    "name": "Water Resources Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Manages irrigation projects, dams, canals, and water storage facilities. Oversees Polavaram and other major irrigation projects across the state.",
+    "contact": {
+      "phone": "0866-2422988",
+      "email": "cewr@ap.gov.in"
+    },
+    "website": "https://waterresources.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-energy-dept",
+    "name": "Energy Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Formulates energy policy, promotes renewable energy projects, and coordinates with power distribution companies. Oversees electricity generation and supply.",
+    "contact": {
+      "phone": "0866-2491333",
+      "email": "secy-energy@ap.gov.in"
+    },
+    "website": "https://aperc.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-roads-buildings-dept",
+    "name": "Roads & Buildings Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Constructs and maintains state highways, bridges, and public buildings. Manages infrastructure projects and road safety initiatives.",
+    "contact": {
+      "phone": "0863-2340555",
+      "email": "ce-rb@ap.gov.in"
+    },
+    "website": "https://aproadstransport.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-housing-dept",
+    "name": "Housing Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "energy-infrastructure",
+    "description": "Implements affordable housing schemes like Navaratnalu Housing and manages urban housing projects. Provides financial assistance for home construction.",
+    "contact": {
+      "phone": "0866-2410666",
+      "email": "cmhousing@ap.gov.in"
+    },
+    "website": "https://housing.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-industries-dept",
+    "name": "Industries & Commerce Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Promotes industrial development, investment facilitation, and MSMEs. Manages industrial parks, SEZs, and business incentives through AP Industrial Infrastructure Corporation.",
+    "contact": {
+      "phone": "0863-2340615",
+      "email": "indus-ap@nic.in"
+    },
+    "website": "https://www.apindustries.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-it-electronics-dept",
+    "name": "Information Technology, Electronics & Communications Department, AP",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Drives IT industry growth, promotes electronics manufacturing, and develops technology infrastructure. Manages IT parks and digital transformation initiatives.",
+    "contact": {
+      "phone": "040-23119955",
+      "email": "info@itap.gov.in"
+    },
+    "website": "https://itap.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-tourism-dept",
+    "name": "Tourism, Culture & Youth Services Department, AP",
+    "scope": "state",
+    "category": "industry-commerce",
+    "description": "Promotes tourism destinations, cultural heritage sites, and youth development programs. Manages tourism infrastructure and cultural events across the state.",
+    "contact": {
+      "phone": "0866-2577966",
+      "email": "aptourism@ap.gov.in"
+    },
+    "website": "https://aptourism.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-forest-dept",
+    "name": "Forest Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "environment-forest",
+    "description": "Conserves forests, wildlife, and biodiversity. Manages protected areas, eco-tourism, and implements afforestation and wildlife protection programs.",
+    "contact": {
+      "phone": "0866-2417192",
+      "email": "pccf@apforest.gov.in"
+    },
+    "website": "https://forest.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-environment-dept",
+    "name": "Environment, Forest, Science & Technology Department, AP",
+    "scope": "state",
+    "category": "environment-forest",
+    "description": "Monitors environmental compliance, pollution control, and climate action. Issues environmental clearances and implements green initiatives.",
+    "contact": {
+      "phone": "0866-2422255",
+      "email": "appcb@ap.gov.in"
+    },
+    "website": "https://appcb.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-labour-dept",
+    "name": "Labour, Employment, Training & Factories Department, AP",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Enforces labour laws, promotes employment generation, and provides skill training. Manages labour welfare schemes and industrial safety regulations.",
+    "contact": {
+      "phone": "0866-2491177",
+      "email": "cmlabour@ap.gov.in"
+    },
+    "website": "https://labour.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-civil-supplies-dept",
+    "name": "Civil Supplies Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Manages public distribution system (PDS), fair price shops, and food security programs. Oversees procurement and distribution of essential commodities.",
+    "contact": {
+      "phone": "0866-2422688",
+      "email": "cmcivilsupplies@ap.gov.in"
+    },
+    "website": "https://epds.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-commercial-taxes-dept",
+    "name": "Commercial Taxes Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Administers GST, VAT, and other state taxes. Manages tax registration, returns, refunds, and compliance enforcement for businesses.",
+    "contact": {
+      "phone": "0866-2428888",
+      "email": "cct-ap@nic.in"
+    },
+    "website": "https://www.apct.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-stamps-registration-dept",
+    "name": "Stamps & Registration Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Registers property transactions, maintains land records, and collects stamp duty. Provides document registration and property verification services.",
+    "contact": {
+      "phone": "0866-2423444",
+      "email": "igrs-ap@nic.in"
+    },
+    "website": "https://registration.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-legal-affairs-dept",
+    "name": "Legal Affairs & Legislative Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Provides legal advice to government departments, drafts legislation, and coordinates legislative affairs. Manages government litigation and legal services.",
+    "contact": {
+      "phone": "0866-2491900",
+      "email": "law-ap@nic.in"
+    },
+    "website": "https://aplegislature.org/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-information-pr-dept",
+    "name": "Information & Public Relations Department, AP",
+    "scope": "state",
+    "category": "public-services",
+    "description": "Disseminates government information, manages media relations, and operates state-owned publications. Handles public communication and awareness campaigns.",
+    "contact": {
+      "phone": "0866-2474070",
+      "email": "dipr-ap@ap.gov.in"
+    },
+    "website": "https://www.apinformation.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-planning-dept",
+    "name": "Planning Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "finance-administration",
+    "description": "Formulates state development plans, coordinates economic policy, and monitors project implementation. Prepares annual budgets and five-year plans.",
+    "contact": {
+      "phone": "0866-2490200",
+      "email": "planning-ap@nic.in"
+    },
+    "website": "https://planning.ap.gov.in/",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "ap-excise-dept",
+    "name": "Prohibition & Excise Department, Andhra Pradesh",
+    "scope": "state",
+    "category": "revenue-taxation",
+    "description": "Regulates alcohol and narcotic substances, issues licenses for liquor sales, and enforces excise laws. Manages state excise revenue collection.",
+    "contact": {
+      "phone": "0866-2487777",
+      "email": "excise-ap@nic.in"
+    },
+    "website": "https://excise.ap.gov.in/",
+    "lastVerified": "2025-11-08"
   }
 ]

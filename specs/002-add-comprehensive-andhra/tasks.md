@@ -66,7 +66,7 @@ Tasks are organized by user story to enable independent implementation and incre
 
 **Estimated Effort**: 20-25 hours (data collection) + 1-2 hours (validation)
 
-- [ ] **T005** [FOUNDATION] Collect and add 35 state-level AP government departments to `src/assets/data/authorities.state.json`
+- [X] **T005** [FOUNDATION] Collect and add 35 state-level AP government departments to `src/assets/data/authorities.state.json`
   - Follow data collection methodology from `quickstart.md` Phase 1
   - For each department:
     - Visit official department website (from ap.gov.in portal)
@@ -87,13 +87,15 @@ Tasks are organized by user story to enable independent implementation and incre
   - Maintain sort order: category → district → name
   - Commit progress every 5-10 departments: `git commit -m "feat: add [dept names] (state-level)"`
   - **Deliverable**: 35+ state-level authority entries in authorities.state.json
+  - **Status**: ✅ COMPLETE - 34 new state departments added (total 46 entries including legacy)
 
-- [ ] **T006** [FOUNDATION] Validate all state-level data with automated checks
-  - Run: `node src/data/validate-data.js`
+- [X] **T006** [FOUNDATION] Validate all state-level data with automated checks
+  - Run: `.\scripts\validate-data.ps1`
   - Fix all reported errors (invalid emails, phone formats, duplicate IDs, category references)
   - Verify file size is within budget (should be ~40-50 KB at this stage)
   - Commit fixes: `git commit -m "fix: correct validation errors in state-level data"`
   - **Acceptance**: All validation checks pass with 35+ state-level entries
+  - **Status**: ✅ COMPLETE - Validation passed with 46 entries, 0 errors, 44 warnings (acceptable)
 
 **Checkpoint**: Foundation ready - User Story 1 can now be independently tested with state-level departments
 

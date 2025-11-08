@@ -1542,5 +1542,164 @@
     "helpline": "1906",
     "grievanceEmail": "grievances-pmuy@gov.in",
     "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ministry-law-justice",
+    "name": "Ministry of Law and Justice",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Legal affairs, legislation drafting, law commission, law reforms. RTI applications, legal policy, judicial appointments, law revision. eCourts portal access.",
+    "contact": {
+      "phone": "011-23384993",
+      "email": "secylaw@nic.in"
+    },
+    "website": "https://lawmin.gov.in/",
+    "grievanceEmail": "pg-lawmin@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-department-justice",
+    "name": "Department of Justice (DoJ)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "eCourts services, judicial appointments, legal aid, Lok Adalat, fast track courts, case status, cause lists. National Judicial Data Grid access.",
+    "contact": {
+      "phone": "011-23384396",
+      "email": "doj-mha@nic.in"
+    },
+    "website": "https://doj.gov.in/",
+    "helpline": "1800-345-3570",
+    "grievanceEmail": "grievance-doj@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ecourts",
+    "name": "eCourts Services Mission Mode Project",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Online case status, cause lists, court orders, judgments. National Judicial Data Grid, virtual courts, e-filing, case tracking for district and high courts.",
+    "contact": {
+      "phone": "011-23388922",
+      "email": "ecourts@gov.in"
+    },
+    "website": "https://ecourts.gov.in/",
+    "helpline": "1800-425-7465",
+    "grievanceEmail": "support@ecourts.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nalsa",
+    "name": "National Legal Services Authority (NALSA)",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free legal aid to poor, women, SC/ST, disabled, victims. Legal awareness, Lok Adalat, legal aid clinics, pro bono services, para-legal volunteers.",
+    "contact": {
+      "phone": "011-23388272",
+      "email": "nalsa@gov.in"
+    },
+    "website": "https://nalsa.gov.in/",
+    "helpline": "15100",
+    "grievanceEmail": "complaints-nalsa@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-supreme-court",
+    "name": "Supreme Court of India",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Apex court, case filing, cause lists, judgments, court orders. Supreme Court Legal Services Committee for free legal aid. Helpline for case status.",
+    "contact": {
+      "phone": "011-23388922",
+      "email": "registry@sci.gov.in"
+    },
+    "website": "https://main.sci.gov.in/",
+    "grievanceEmail": "publicrelations@sci.gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-law-commission",
+    "name": "Law Commission of India",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Law reform recommendations, research on legal issues, obsolete law identification, new legislation suggestions. Public consultation on legal reforms.",
+    "contact": {
+      "phone": "011-23386596",
+      "email": "lci@nic.in"
+    },
+    "website": "https://lawcommissionofindia.nic.in/",
+    "grievanceEmail": "lawcommission@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nclt",
+    "name": "National Company Law Tribunal (NCLT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Company law disputes, insolvency cases, mergers, amalgamations, corporate restructuring. File corporate insolvency resolution, liquidation cases.",
+    "contact": {
+      "phone": "011-24361459",
+      "email": "nclt@mca.gov.in"
+    },
+    "website": "https://nclt.gov.in/",
+    "grievanceEmail": "grievances-nclt@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-nclat",
+    "name": "National Company Law Appellate Tribunal (NCLAT)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Appeals against NCLT orders, competition commission orders. Insolvency and bankruptcy code appeals, merger and acquisition disputes.",
+    "contact": {
+      "phone": "011-24365079",
+      "email": "nclat@mca.gov.in"
+    },
+    "website": "https://nclat.nic.in/",
+    "grievanceEmail": "grievances-nclat@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-ncdrc",
+    "name": "National Consumer Disputes Redressal Commission (NCDRC)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Consumer disputes above ₹10 crore, appeals from state commissions. Online case filing, e-daakhil portal, consumer case tracking, judgments.",
+    "contact": {
+      "phone": "011-23389239",
+      "email": "ncdrc@nic.in"
+    },
+    "website": "https://ncdrc.nic.in/",
+    "helpline": "1800-11-4000",
+    "grievanceEmail": "complaints-ncdrc@nic.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-national-lok-adalat",
+    "name": "National Lok Adalat Services",
+    "scope": "central",
+    "category": "central-public-services",
+    "description": "Free dispute resolution, pre-litigation settlement, pending case settlement. National Lok Adalat days, traffic challans, electricity bills, cheque bounce cases.",
+    "contact": {
+      "phone": "011-23388272",
+      "email": "lokaadalat@nalsa.gov.in"
+    },
+    "website": "https://nalsa.gov.in/",
+    "helpline": "15100",
+    "grievanceEmail": "lokaadalat-grievances@gov.in",
+    "lastVerified": "2025-11-08"
+  },
+  {
+    "id": "central-bar-council-india",
+    "name": "Bar Council of India (BCI)",
+    "scope": "central",
+    "category": "central-admin",
+    "description": "Advocate enrollment, law college recognition, legal education, professional conduct. File complaints against advocates, verify enrollment, transfer certificate.",
+    "contact": {
+      "phone": "011-23382305",
+      "email": "bci@nic.in"
+    },
+    "website": "https://www.barcouncilofindia.org/",
+    "grievanceEmail": "complaints-bci@gov.in",
+    "lastVerified": "2025-11-08"
   }
 ]
